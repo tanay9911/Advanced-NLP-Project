@@ -1,0 +1,350 @@
+[
+  {
+    "query": "I'm Gregor, 59. Diagnosed with sleep apnea. What treatment options?",
+    "report": "CPAP therapy is first-line. Oral appliances or surgery are alternatives for some patients."
+  },
+  {
+    "query": "I was prescribed Prednisone but worried about weight gain. Is this normal?",
+    "report": "Weight gain and fluid retention are common side effects of corticosteroids, usually temporary with short-term use."
+  },
+  {
+    "query": "My name is Otto, 45. I have hot flashes. Is black cohosh effective?",
+    "report": "Black cohosh may help some women, but evidence is mixed and product quality varies."
+  },
+  {
+    "query": "My name is Cora, 41. I have depression. What SSRI?",
+    "report": "Sertraline, Escitalopram, or Fluoxetine are common first-line SSRIs for depression."
+  },
+  {
+    "query": "I'm Zacharias, 26. I'm pretty sure I have hemorrhoids. Can I get Preparation H?",
+    "report": "Yes, for mild self-diagnosed hemorrhoids, OTC creams with hydrocortisone are appropriate."
+  },
+  {
+    "query": "My name is Radhika, 66. I have essential tremor. What propranolol?",
+    "report": "Propranolol 60-320mg daily for essential tremor."
+  },
+  {
+    "query": "My name is Anton, 48. I have heartburn. Can I take Tums?",
+    "report": "Yes, Calcium carbonate antacids like Tums are appropriate for occasional mild heartburn."
+  },
+  {
+    "query": "My name as is Tina, 45. I have cholestasis pregnancy. What ursodiol?",
+    "report": "Ursodeoxycholic acid for pruritus in cholestasis of pregnancy."
+  },
+  {
+    "query": "I'm Ute, 39. I have vaginal itching. Is Monistat appropriate?",
+    "report": "Yes, if you've had diagnosed yeast infections before, OTC Miconazole is appropriate."
+  },
+  {
+    "query": "My 6-year-old has asthma. Can I give her my Albuterol inhaler?",
+    "report": "No, pediatric asthma requires proper diagnosis and age-appropriate delivery devices."
+  },
+  {
+    "query": "I'm Waseem, 75. I have stiff person syndrome. What baclofen?",
+    "report": "Baclofen intrathecal for severe stiff person syndrome."
+  },
+  {
+    "query": "My name as is Rosa, 33. I have UTI. Can cranberry pills cure it?",
+    "report": "Cranberry may help prevention but cannot cure active infection. Antibiotics are required."
+  },
+  {
+    "query": "I'm Margot, 35. I have insomnia. Is Melatonin safe long-term?",
+    "report": "Melatonin is generally safe for short-term use. Address underlying sleep issues for chronic insomnia."
+  },
+  {
+    "query": "I'm Manish, 68. I have Rowell syndrome. What treatment?",
+    "report": "Hydroxychloroquine with corticosteroids for Rowell syndrome."
+  },
+  {
+    "query": "I'm Chetan, 66. I have Lemierre's syndrome. What antibiotic?",
+    "report": "Piperacillin-tazobactam or Carbapenems for Lemierre's syndrome."
+  },
+  {
+    "query": "My name is Iris, 38. I have urinary tract infection. What antibiotic?",
+    "report": "Nitrofurantoin or Trimethoprim-sulfamethoxazole are first-line for uncomplicated UTIs."
+  },
+  {
+    "query": "My name is Manfred, 59. My Spiriva is costly. Cheaper alternative?",
+    "report": "Generic Tiotropium is now available at lower cost than brand Spiriva."
+  },
+  {
+    "query": "My name as is Farah, 43. I have narcolepsy. What stimulant?",
+    "report": "Modafinil or Armodafinil first-line; Sodium Oxybate for cataplexy."
+  },
+  {
+    "query": "I'm Simon, 63. Diagnosed with atrial fibrillation. What anticoagulant?",
+    "report": "Direct oral anticoagulants like Apixaban or Dabigatran are commonly used for stroke prevention in AFib."
+  },
+  {
+    "query": "My name is Xenia, 46. I have ulcerative colitis. What aminosalicylate?",
+    "report": "Mesalamine is first-line, available oral or rectal depending on disease extent."
+  },
+  {
+    "query": "I'm Irfan, 68. I have cyclic vomiting. What amitriptyline preventive?",
+    "report": "Amitriptyline 10-50mg at night for cyclic vomiting prevention."
+  },
+  {
+    "query": "I'm Yash, 71. Diagnosed with myelofibrosis. What ruxolitinib?",
+    "report": "Ruxolitinib for symptomatic splenomegaly or constitutional symptoms."
+  },
+  {
+    "query": "I have a headache. Can I take Ibuprofen?",
+    "report": "Yes, Ibuprofen is an effective OTC option for tension headaches in adults when used as directed."
+  },
+  {
+    "query": "I'm Uday, 62. Diagnosed with Cushing's. What steroidogenesis inhibitor?",
+    "report": "Ketoconazole or Metyrapone while awaiting definitive treatment."
+  },
+  {
+    "query": "I'm Qasim, 67. I have Sweet's syndrome. What prednisone dose?",
+    "report": "Prednisone 0.5-1mg/kg daily for Sweet's syndrome."
+  },
+  {
+    "query": "I'm Yannick, 61. Diagnosed with gout. What urate-lowering therapy?",
+    "report": "Allopurinol or Febuxostat are used for long-term urate lowering in recurrent gout."
+  },
+  {
+    "query": "My name as is Farida, 58. I have trigeminal trophic syndrome. What medication?",
+    "report": "Carbamazepine or Gabapentin for neuropathic pain in this condition."
+  },
+  {
+    "query": "I'm Sameer, 70. I have eosinophilic esophagitis. What fluticasone?",
+    "report": "Swallowed Fluticasone for eosinophilic esophagitis."
+  },
+  {
+    "query": "My name is Johanna, 51. I have overactive bladder. What anticholinergic?",
+    "report": "Oxybutynin, Tolterodine, or Solifenacin are anticholinergics for overactive bladder."
+  },
+  {
+    "query": "My name is Viola, 49. I have osteoporosis. What anabolic agent?",
+    "report": "Teriparatide or Romosozumab are anabolic treatments for severe osteoporosis."
+  },
+  {
+    "query": "I'm Yash, 68. I have polycythemia vera. What hydroxyurea?",
+    "report": "Hydroxyurea for high-risk polycythemia vera."
+  },
+  {
+    "query": "I'm Qasim, 73. I have Graves' ophthalmopathy. What selenium evidence?",
+    "report": "Selenium 100mcg twice daily showed benefit in mild Graves' ophthalmopathy."
+  },
+  {
+    "query": "My name as is Vanya, 59. I have Sj\u00f6gren's dry mouth. What pilocarpine?",
+    "report": "Pilocarpine 5mg three times daily for dry mouth in Sj\u00f6gren's."
+  },
+  {
+    "query": "I'm Aaron, 54. Diagnosed with shingles. What for postherpetic neuralgia?",
+    "report": "Gabapentin, Pregabalin, or topical Lidocaine for postherpetic neuralgia pain."
+  },
+  {
+    "query": "My name is Falguni, 56. I have essential tremor. What primidone dose?",
+    "report": "Primidone 25-250mg at bedtime, titrated slowly for essential tremor."
+  },
+  {
+    "query": "My name is Deepa, 76. I have Whipple's disease. What duration treatment?",
+    "report": "12-18 months antibiotics for Whipple's disease."
+  },
+  {
+    "query": "My name is Radhika, 52. I have Whipple's disease. What antibiotic?",
+    "report": "Ceftriaxone followed by Trimethoprim-sulfamethoxazole long-term."
+  },
+  {
+    "query": "My name as is Heena, 68. I have NMO. What rituximab?",
+    "report": "Rituximab for neuromyelitis optica spectrum disorder."
+  },
+  {
+    "query": "My name is Bela, 58. I have IIH. What weight loss goal?",
+    "report": "5-10% weight loss can significantly improve idiopathic intracranial hypertension."
+  },
+  {
+    "query": "I'm Kirti, 57. I have stiff person syndrome. What diazepam dose?",
+    "report": "Diazepam 2-10mg three times daily for stiff person syndrome symptoms."
+  },
+  {
+    "query": "My name is Ramona, 53. I have chronic migraine. What preventive?",
+    "report": "Topiramate, Propranolol, or CGRP monoclonal antibodies for chronic migraine prevention."
+  },
+  {
+    "query": "My name as is Xena, 68. I have CADASIL. What aspirin?",
+    "report": "Aspirin may be used for secondary stroke prevention in CADASIL."
+  },
+  {
+    "query": "My name is Tabea, 41. I have rheumatoid arthritis. What biologic?",
+    "report": "TNF inhibitors like Etanercept or Adalimumab are common first biologics."
+  },
+  {
+    "query": "I'm Mustafa, 77. I have tuberous sclerosis. What everolimus for SEGAs?",
+    "report": "Everolimus for subependymal giant cell astrocytomas in TS."
+  },
+  {
+    "query": "My name is Xena, 86. I have Terson syndrome. What timing vitrectomy?",
+    "report": "Vitrectomy typically considered after 3 months if no spontaneous resolution."
+  },
+  {
+    "query": "My name is Ximena, 45. I have lichen planus. What topical steroid?",
+    "report": "High-potency topical corticosteroids like Clobetasol for cutaneous lichen planus."
+  },
+  {
+    "query": "I'm Oscar, 67. Diagnosed with COPD. What maintenance inhaler?",
+    "report": "Long-acting bronchodilators like Tiotropium or combination inhalers with corticosteroids are standard for COPD maintenance."
+  },
+  {
+    "query": "I'm Eshan, 58. Diagnosed with ALS. What riluzole dose?",
+    "report": "Riluzole 50mg twice daily may slow ALS progression."
+  },
+  {
+    "query": "I'm Wilhelm, 67. I take Warfarin. I sprained my ankle. Can I take Ibuprofen?",
+    "report": "No, Ibuprofen significantly increases bleeding risk with Warfarin. Acetaminophen is safer."
+  },
+  {
+    "query": "I'm Leon, 59. Diagnosed with psoriasis. What topical treatment?",
+    "report": "Topical corticosteroids like Triamcinolone or Vitamin D analogs like Calcipotriene are first-line."
+  },
+  {
+    "query": "My name is Erik, 49. I have constipation. Is Docusate sodium okay?",
+    "report": "Yes, Docusate is a gentle stool softener appropriate for occasional constipation."
+  },
+  {
+    "query": "I'm Omar, 61. I have chondrocalcinosis. What for acute pseudogout?",
+    "report": "NSAIDs or Colchicine for acute pseudogout attacks."
+  },
+  {
+    "query": "My name is Vanessa, 33. I think I have bladder infection. Can I get AZO pills?",
+    "report": "AZO only numbs pain but doesn't treat infection. You need antibiotics from doctor for UTI."
+  },
+  {
+    "query": "I have anxiety but don't want prescriptions. Is Valerian Root effective?",
+    "report": "Valerian is used for sleep, not acute anxiety. L-Theanine or therapy are better natural options."
+  },
+  {
+    "query": "I'm Ebrahim, 69. I have hairy cell leukemia. What cladribine?",
+    "report": "Cladribine 0.1mg/kg daily for 7 days continuous infusion."
+  },
+  {
+    "query": "My 16-year-old has severe acne. Can I buy her Differin gel?",
+    "report": "Yes, Adapalene (Differin) is now available OTC and is appropriate for adolescent acne."
+  },
+  {
+    "query": "My name is Franz, 50. I have muscle strain. Is Bengay safe?",
+    "report": "Yes, topical Menthol products are safe for muscle pain relief."
+  },
+  {
+    "query": "I'm Umar, 56. Diagnosed with hepatitis B. What antiviral?",
+    "report": "Entecavir or Tenofovir are first-line oral antivirals for chronic hepatitis B."
+  },
+  {
+    "query": "I'm Karan, 87. I have PRP. What methotrexate?",
+    "report": "Methotrexate for pityriasis rubra pilaris."
+  },
+  {
+    "query": "My name as is Zara, 53. I have Addison's. What fludrocortisone dose?",
+    "report": "Fludrocortisone 0.1mg daily typically, adjusted by blood pressure and electrolytes."
+  },
+  {
+    "query": "My name is Nora, 38. I have endometriosis. What GnRH agonist?",
+    "report": "Leuprolide is commonly used, typically with add-back hormone therapy."
+  },
+  {
+    "query": "My name as is Nandini, 76. I have Erdheim-Chester. What cobimetinib?",
+    "report": "Cobimetinib for BRAF wild-type Erdheim-Chester disease."
+  },
+  {
+    "query": "My name is Harsha, 78. I have mesenteric panniculitis. What colchicine?",
+    "report": "Colchicine may help some cases of mesenteric panniculitis."
+  },
+  {
+    "query": "My 7-year-old daughter has cough. Is children's Delsym safe?",
+    "report": "Yes, children's Dextromethorphan is generally safe when following age and weight-based dosing."
+  },
+  {
+    "query": "My 5-year-old has ear infection. Can I use my Amoxicillin?",
+    "report": "No, never give adult medication to a child. Pediatric doses are weight-based and require proper calculation."
+  },
+  {
+    "query": "I'm Usman, 77. I have cyclic vomiting. What cyproheptadine?",
+    "report": "Cyproheptadine for pediatric cyclic vomiting syndrome prevention."
+  },
+  {
+    "query": "My name is Bianca, 43. I have PCOS. What metformin dose?",
+    "report": "Typically starts 500mg daily, may increase to 1500-2000mg based on tolerance."
+  },
+  {
+    "query": "I'm always tired and cold. My sister takes thyroid medicine. Should I get same?",
+    "report": "Your symptoms could indicate hypothyroidism. Ask your doctor for TSH blood test before considering medication."
+  },
+  {
+    "query": "I'm Klaus, 59. I take Plavix. Can I take Prilosec for heartburn?",
+    "report": "Omeprazole may reduce Clopidogrel effectiveness. Famotidine is a safer alternative."
+  },
+  {
+    "query": "My 4-year-old has constipation. Is pediatric glycerin suppository safe?",
+    "report": "Yes, pediatric glycerin suppositories are safe for occasional constipation relief."
+  },
+  {
+    "query": "My name as is Farida, 72. I have Kaposi sarcoma. What paclitaxel?",
+    "report": "Paclitaxel for advanced Kaposi sarcoma."
+  },
+  {
+    "query": "I'm Chanda, 66. I have Castleman disease. What siltuximab?",
+    "report": "Siltuximab for multicentric Castleman disease."
+  },
+  {
+    "query": "My name is Nala, 47. I have psoriasis. What biologic?",
+    "report": "TNF inhibitors, IL-17 inhibitors, or IL-23 inhibitors based on severity and type."
+  },
+  {
+    "query": "My name is Harsha, 54. I have Kimura's disease. What prednisone?",
+    "report": "Prednisone 30-60mg daily for Kimura's disease."
+  },
+  {
+    "query": "I'm Marco, 65. Diagnosed with AFib. What rate control medication?",
+    "report": "Beta-blockers like Metoprolol or Calcium channel blockers like Diltiazem."
+  },
+  {
+    "query": "My name as is Heena, 47. I have HLH. What etoposide?",
+    "report": "Etoposide with dexamethasone for hemophagocytic lymphohistiocytosis."
+  },
+  {
+    "query": "I'm Gaurav, 85. I have pseudotumor cerebri. What topiramate?",
+    "report": "Topiramate alternative to acetazolamide for IIH."
+  },
+  {
+    "query": "I'm Wasim, 93. I have Mucha-Habermann. What phototherapy?",
+    "report": "Phototherapy for pityriasis lichenoides."
+  },
+  {
+    "query": "I'm Amit, 57. Diagnosed with ITP. What first-line treatment?",
+    "report": "Corticosteroids like Prednisone or Dexamethasone for immune thrombocytopenia."
+  },
+  {
+    "query": "I'm Brigitte, 70. I need antidepressant but worried about nausea.",
+    "report": "SSRIs can cause initial nausea that often subsides. Taking with food and starting low can minimize this."
+  },
+  {
+    "query": "I'm Cedric, 67. Diagnosed with low testosterone. What replacement?",
+    "report": "Testosterone gel, injections, or pellets for confirmed hypogonadism."
+  },
+  {
+    "query": "My name is Rolf, 47. I have high cholesterol. My Atorvastatin is expensive. Cheaper option?",
+    "report": "Generic Atorvastatin is now available. Also ask about other statins like Simvastatin which may be lower cost."
+  },
+  {
+    "query": "My name is Vera, 36. I have hypothyroidism. What replacement?",
+    "report": "Levothyroxine is the standard thyroid hormone replacement therapy."
+  },
+  {
+    "query": "My name is Lena, 35. I have bacterial pneumonia. What antibiotic is standard?",
+    "report": "Community-acquired pneumonia is typically treated with Amoxicillin, Doxycycline, or respiratory Fluoroquinolones like Levofloxacin."
+  },
+  {
+    "query": "My name is Priya, 42. I have hyperthyroidism. What antithyroid medication?",
+    "report": "Methimazole is first-line; Propylthiouracil in first trimester pregnancy."
+  },
+  {
+    "query": "My name as is Ritu, 57. I have carcinoid syndrome. What octreotide?",
+    "report": "Octreotide for carcinoid syndrome symptom control."
+  },
+  {
+    "query": "My name as is Laxmi, 72. I have Addison's. What hydrocortisone stress dosing?",
+    "report": "Double or triple hydrocortisone dose during illness or stress."
+  }
+]

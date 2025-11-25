@@ -1,0 +1,13 @@
+{
+  "faiss_index": "/content/drive/MyDrive/gemma_finetune/artifacts/reports_index.faiss",
+  "meta": "/content/drive/MyDrive/gemma_finetune/artifacts/reports_metadata.json",
+  "train_jsonl": "/content/drive/MyDrive/gemma_finetune/artifacts/train_final.jsonl",
+  "val_jsonl": "/content/drive/MyDrive/gemma_finetune/artifacts/val_final.jsonl",
+  "lora_weights": "/content/drive/MyDrive/gemma_finetune/artifacts/lora_weights",
+  "merged_model": "/content/drive/MyDrive/gemma_finetune/gemma2b_qlora_ft_merged",
+  "notes": {
+    "sim_threshold": 0.3,
+    "topk": 3,
+    "mask_prob": 0.6
+  }
+}
