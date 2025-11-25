@@ -1,0 +1,1361 @@
+[
+  {
+    "id": 1,
+    "original_query": "My name is <PERSON_3>, 55. I take <GPE_2>. I have a cold. Can I take <PERSON_1>?",
+    "processed_query": "My name is <PERSON_3>, 55. I take <GPE_2>. I have a cold. Can I take <PERSON_1>?",
+    "mask_map": {},
+    "retrieved_count": 3,
+    "retrieved_cases": [
+      {
+        "query": "My name is <GPE_2>, 44. I think I have sinus infection. Can I get <PERSON_1>?",
+        "report": "Sudafed can relieve congestion but doesn't treat infection. See doctor if symptoms persist."
+      },
+      {
+        "query": "My name is Hedwig, 68. I'm on <PERSON_2>. Can I take <PERSON_1> for headache?",
+        "report": "No, Aspirin increases bleeding risk. Acetaminophen is safer for pain relief."
+      },
+      {
+        "query": "My name is <PERSON_2>, 41. I have sinus infection. Can I take my daughter's <GPE_1>?",
+        "report": "Absolutely not. Never use anyone else's prescription. Dose is incorrect for adult."
+      }
+    ],
+    "final_answer": "No, <PERSON_1> is not recommended. Use a different remedy for cold symptoms. See doctor for proper treatment.",
+    "consent_given": false
+  },
+  {
+    "id": 2,
+    "original_query": "I'm Waseem, 75. I have stiff person syndrome. What baclofen?",
+    "processed_query": "I'm Waseem, 75. I have stiff person syndrome. What baclofen?",
+    "mask_map": {},
+    "retrieved_count": 3,
+    "retrieved_cases": [
+      {
+        "query": "I'm <PERSON_2>, 68. I have <PERSON_1> syndrome. What treatment?",
+        "report": "Hydroxychloroquine with corticosteroids for Rowell syndrome."
+      },
+      {
+        "query": "I'm Sameer, 91. I have <PERSON_1> disease. What treprostinil?",
+        "report": "Treprostinil for malignant Degos disease with systemic involvement."
+      },
+      {
+        "query": "My name is <PERSON_1>, 41. I have chronic pain. What SNRI?",
+        "report": "Duloxetine or Milnacipran are SNRIs used for chronic pain conditions."
+      }
+    ],
+    "final_answer": "Baclofen is muscle relaxant used for stiff person syndrome.",
+    "consent_given": true
+  },
+  {
+    "id": 3,
+    "original_query": "My name is Gustav, 55. My <PERSON_1> is expensive. Cheaper version?",
+    "processed_query": "My name is Gustav, 55. My <PERSON_1> is expensive. Cheaper version?",
+    "mask_map": {},
+    "retrieved_count": 3,
+    "retrieved_cases": [
+      {
+        "query": "My name is <PERSON_2>, 59. <PERSON_1> is costly. Cheaper alternative?",
+        "report": "Generic Tiotropium is now available at lower cost than brand Spiriva."
+      },
+      {
+        "query": "I'm <PERSON_1>, 36. [NAME] is expensive. Any option?",
+        "report": "Bimatoprost has no OTC equivalent. Discuss prescription alternatives with your ophthalmologist."
+      },
+      {
+        "query": "I'm Petra, 62. [NAME] costs too much. Any alternative?",
+        "report": "Warfarin is a much cheaper anticoagulant but requires regular blood monitoring and dietary consistency."
+      }
+    ],
+    "final_answer": "Generic Duloxetine or Gabapentin are available at lower cost.",
+    "consent_given": true
+  },
+  {
+    "id": 4,
+    "original_query": "My name is <PERSON_1>, 48. I have MCAS. What mast cell stabilizer?",
+    "processed_query": "My name is <PERSON_1>, 48. I have MCAS. What mast cell stabilizer?",
+    "mask_map": {},
+    "retrieved_count": 3,
+    "retrieved_cases": [
+      {
+        "query": "My name as is <PERSON_1>, 74. I have EGPA. What glucocorticoid taper?",
+        "report": "Glucocorticoids tapered over 6-12 months for eosinophilic granulomatosis."
+      },
+      {
+        "query": "My name is Veena, 55. I have NMO. What immunosuppressant?",
+        "report": "Azathioprine, Mycophenolate, or Rituximab for NMO spectrum disorder."
+      },
+      {
+        "query": "My name as is <PERSON_2>, 50. I have <PERSON_1>'s disease. What tamoxifen?",
+        "report": "Tamoxifen may help retroperitoneal fibrosis."
+      }
+    ],
+    "final_answer": "Cromatropine is the preferred mast cell stabilizer.",
+    "consent_given": false
+  },
+  {
+    "id": 5,
+    "original_query": "My name is Lila, 50. I have osteopenia. What treatment?",
+    "processed_query": "My name is <PERSON_1>, 50. I have osteopenia. What treatment?",
+    "mask_map": {
+      "<PERSON_1>": "Lila"
+    },
+    "retrieved_count": 3,
+    "retrieved_cases": [
+      {
+        "query": "My name is <GPE_2>, 55. I have <PERSON_1> syndrome. What treatment?",
+        "report": "Vitrectomy for persistent vitreous hemorrhage."
+      },
+      {
+        "query": "I'm <PERSON_2>, 68. I have <PERSON_1> syndrome. What treatment?",
+        "report": "Hydroxychloroquine with corticosteroids for Rowell syndrome."
+      },
+      {
+        "query": "My name is <GPE_1>, 47. I have fibromyalgia. What medication first?",
+        "report": "Duloxetine, Milnacipran, or Pregabalin are first-line for fibromyalgia."
+      }
+    ],
+    "final_answer": "Calcium and vitamin D for prevention. Bisphosphonates or calcitonin for acute fractures.",
+    "consent_given": false
+  },
+  {
+    "id": 6,
+    "original_query": "My name is Tabea, 41. I have rheumatoid arthritis. What biologic?",
+    "processed_query": "My name is Tabea, 41. I have rheumatoid arthritis. What biologic?",
+    "mask_map": {},
+    "retrieved_count": 3,
+    "retrieved_cases": [
+      {
+        "query": "My name is Hana, 48. I have rheumatoid arthritis. What JAK inhibitor?",
+        "report": "Tofacitinib or Baricitinib for moderate-severe RA after DMARD failure."
+      },
+      {
+        "query": "My name is <GPE_1>, 47. I have psoriasis. What biologic?",
+        "report": "TNF inhibitors, IL-17 inhibitors, or IL-23 inhibitors based on severity and type."
+      },
+      {
+        "query": "My name as is <GPE_1>, 55. I have Fahr's disease. What treatment?",
+        "report": "No specific treatment; manage movement disorders or psychiatric symptoms."
+      }
+    ],
+    "final_answer": "Etanercept or Certican for rheumatoid arthritis.",
+    "consent_given": true
+  },
+  {
+    "id": 7,
+    "original_query": "I'm <PERSON_1>, 69. I have Crow-Fukase syndrome. What POEMS treatment?",
+    "processed_query": "I'm <PERSON_1>, 69. I have Crow-Fukase syndrome. What POEMS treatment?",
+    "mask_map": {},
+    "retrieved_count": 3,
+    "retrieved_cases": [
+      {
+        "query": "My name is Bela, 42. I have POEMS syndrome. What treatment?",
+        "report": "Radiation for solitary lesions; autologous stem cell transplant for diffuse disease."
+      },
+      {
+        "query": "My name is <PERSON_1>, 70. I have POEMS syndrome. What lenalidomide?",
+        "report": "Lenalidomide with dexamethasone for POEMS syndrome."
+      },
+      {
+        "query": "I'm <PERSON_2>, 68. I have <PERSON_1> syndrome. What treatment?",
+        "report": "Hydroxychloroquine with corticosteroids for Rowell syndrome."
+      }
+    ],
+    "final_answer": "Autologous stem cell transplant or lenalidomide with dexamethasone for diffuse disease.",
+    "consent_given": true
+  },
+  {
+    "id": 8,
+    "original_query": "I'm Maximilian, 69. Diagnosed with myeloma. What proteasome inhibitor?",
+    "processed_query": "I'm Maximilian, 69. Diagnosed with myeloma. What proteasome inhibitor?",
+    "mask_map": {},
+    "retrieved_count": 3,
+    "retrieved_cases": [
+      {
+        "query": "I'm Chirag, 64. Diagnosed with myelofibrosis. What JAK inhibitor?",
+        "report": "Ruxolitinib for symptomatic myelofibrosis."
+      },
+      {
+        "query": "I'm <GPE_1>, 69. I have primary myelofibrosis. What fedratinib?",
+        "report": "Fedratinib for myelofibrosis in patients resistant to ruxolitinib."
+      },
+      {
+        "query": "I'm Gianni, 63. Diagnosed with BPH. What 5-alpha reductase inhibitor?",
+        "report": "Finasteride or Dutasteride reduce prostate size over months."
+      }
+    ],
+    "final_answer": "Bortezomib is the preferred proteasome inhibitor for myeloma.",
+    "consent_given": true
+  },
+  {
+    "id": 9,
+    "original_query": "My name is <GPE_1>, 47. I have osteoporosis. What bisphosphonate?",
+    "processed_query": "My name is <GPE_1>, 47. I have osteoporosis. What bisphosphonate?",
+    "mask_map": {},
+    "retrieved_count": 3,
+    "retrieved_cases": [
+      {
+        "query": "I'm <PERSON_1>, 69. Diagnosed with Paget's disease. What bisphosphonate?",
+        "report": "Zoledronic acid single infusion often induces long remission."
+      },
+      {
+        "query": "My name is Viola, 49. I have osteoporosis. What anabolic agent?",
+        "report": "Teriparatide or Romosozumab are anabolic treatments for severe osteoporosis."
+      },
+      {
+        "query": "My name is <GPE_1>, 55. I have myasthenia gravis. What pyridostigmine?",
+        "report": "Pyridostigmine 30-60mg every 4-6 hours for symptom control."
+      }
+    ],
+    "final_answer": "Alendronate is the preferred bisphosphonate for osteoporosis prevention.",
+    "consent_given": true
+  },
+  {
+    "id": 10,
+    "original_query": "I'm <PERSON_3>, 59. I take <PERSON_2>. Can I take <PERSON_1> for heartburn?",
+    "processed_query": "I'm <PERSON_3>, 59. I take <PERSON_2>. Can I take <PERSON_1> for heartburn?",
+    "mask_map": {},
+    "retrieved_count": 3,
+    "retrieved_cases": [
+      {
+        "query": "My name is Hedwig, 68. I'm on <PERSON_2>. Can I take <PERSON_1> for headache?",
+        "report": "No, Aspirin increases bleeding risk. Acetaminophen is safer for pain relief."
+      },
+      {
+        "query": "My name is Anton, 48. I have heartburn. Can I take Tums?",
+        "report": "Yes, Calcium carbonate antacids like Tums are appropriate for occasional mild heartburn."
+      },
+      {
+        "query": "I'm <PERSON_2>, 65. I have toothache. Can I take leftover <PERSON_1> from surgery?",
+        "report": "No, opioids not appropriate for toothache and carry addiction risk. See dentist for proper treatment."
+      }
+    ],
+    "final_answer": "For occasional heartburn, use <PERSON_2>. Avoid combination drugs which can stimulate gastric acid.",
+    "consent_given": false
+  },
+  {
+    "id": 11,
+    "original_query": "My name is Priya, 42. I have hyperthyroidism. What antithyroid medication?",
+    "processed_query": "My name is Priya, 42. I have hyperthyroidism. What antithyroid medication?",
+    "mask_map": {},
+    "retrieved_count": 3,
+    "retrieved_cases": [
+      {
+        "query": "My name as is <PERSON_1>, 58. I have trigeminal trophic syndrome. What medication?",
+        "report": "Carbamazepine or Gabapentin for neuropathic pain in this condition."
+      },
+      {
+        "query": "My name is Varsha, 70. I have rare skeletal disorder. What IL-1 inhibitor?",
+        "report": "IL-1 inhibitors like Anakinra for certain autoinflammatory skeletal disorders."
+      },
+      {
+        "query": "I'm <PERSON_1>, 64. I have erythromelalgia. What medication?",
+        "report": "Aspirin may help secondary form; Gabapentin or Mexiletine for primary."
+      }
+    ],
+    "final_answer": "Methimazole or Carbimazole are common antithyroid medications. Propylthiouracil is also used.",
+    "consent_given": false
+  },
+  {
+    "id": 12,
+    "original_query": "My name is Leela, 80. I have Schnitzler syndrome. What canakinumab?",
+    "processed_query": "My name is <GPE_2>, 80. I have <PERSON_1> syndrome. What canakinumab?",
+    "mask_map": {
+      "<PERSON_1>": "Schnitzler",
+      "<GPE_2>": "Leela"
+    },
+    "retrieved_count": 3,
+    "retrieved_cases": [
+      {
+        "query": "My name as is Nandini, 52. I have <PERSON_1>'s syndrome. What indicates?",
+        "report": "Xanthochromia with high CSF protein suggests spinal block."
+      },
+      {
+        "query": "My name is <GPE_2>, 55. I have <PERSON_1> syndrome. What treatment?",
+        "report": "Vitrectomy for persistent vitreous hemorrhage."
+      },
+      {
+        "query": "I'm <PERSON_2>, 89. I have <PERSON_1> syndrome. What diagnostic criteria?",
+        "report": "Rowell syndrome: lupus erythematosus with erythema multiforme-like lesions."
+      }
+    ],
+    "final_answer": "Canakinumab is used to prevent flare-ups in individuals with atopic dermatitis.",
+    "consent_given": false
+  },
+  {
+    "id": 13,
+    "original_query": "My name is <PERSON_2>, 46. I have athlete's foot. Can I use <GPE_1>?",
+    "processed_query": "My name is <PERSON_2>, 46. I have athlete's foot. Can I use <GPE_1>?",
+    "mask_map": {},
+    "retrieved_count": 3,
+    "retrieved_cases": [
+      {
+        "query": "I'm <PERSON_2>, 22. I have athlete's foot. Can I get <PERSON_1> at pharmacy?",
+        "report": "Yes, Clotrimazole is effective OTC antifungal for athlete's foot when used as directed."
+      },
+      {
+        "query": "My name is Lars, 57. I have toenail fungus. Can I use topical <GPE_1>?",
+        "report": "Topical antifungals have limited nail penetration. Oral Terbinafine is more effective for fungal nails."
+      },
+      {
+        "query": "I'm <PERSON_2>, 64. I have arthritis pain. Is <GPE_1> safe?",
+        "report": "Yes, Acetaminophen is first-line for osteoarthritis pain when used at recommended doses."
+      }
+    ],
+    "final_answer": "Yes, Clotrimazole is effective OTC antifungal for athlete's foot when used as directed.",
+    "consent_given": true
+  },
+  {
+    "id": 14,
+    "original_query": "I'm Qasim, 85. I have Sneddon-Wilkinson. What acitretin?",
+    "processed_query": "I'm Qasim, 85. I have Sneddon-Wilkinson. What acitretin?",
+    "mask_map": {},
+    "retrieved_count": 3,
+    "retrieved_cases": [
+      {
+        "query": "I'm Esha, 63. I have Sneddon-Wilkinson. What dapsone dose?",
+        "report": "Dapsone 50-150mg daily for subcorneal pustular dermatosis."
+      },
+      {
+        "query": "I'm <GPE_1>, 69. I have primary myelofibrosis. What fedratinib?",
+        "report": "Fedratinib for myelofibrosis in patients resistant to ruxolitinib."
+      },
+      {
+        "query": "I'm <GPE_1>, 57. I have stiff person syndrome. What diazepam dose?",
+        "report": "Diazepam 2-10mg three times daily for stiff person syndrome symptoms."
+      }
+    ],
+    "final_answer": "Acitretin 40-120mg weekly for subcorneal pustular dermatosis.",
+    "consent_given": true
+  },
+  {
+    "id": 15,
+    "original_query": "I'm Inder, 67. I have Wells syndrome. What first-line?",
+    "processed_query": "I'm Inder, 67. I have Wells syndrome. What first-line?",
+    "mask_map": {},
+    "retrieved_count": 3,
+    "retrieved_cases": [
+      {
+        "query": "I'm <PERSON_2>, 68. I have <PERSON_1> syndrome. What treatment?",
+        "report": "Hydroxychloroquine with corticosteroids for Rowell syndrome."
+      },
+      {
+        "query": "My name is <GPE_2>, 55. I have <PERSON_1> syndrome. What treatment?",
+        "report": "Vitrectomy for persistent vitreous hemorrhage."
+      },
+      {
+        "query": "I'm <PERSON_2>, 89. I have <PERSON_1> syndrome. What diagnostic criteria?",
+        "report": "Rowell syndrome: lupus erythematosus with erythema multiforme-like lesions."
+      }
+    ],
+    "final_answer": "Corticosteroids for acute symptoms; prolonged use of hydroxychloroquine may exacerbate neuropathy.",
+    "consent_given": true
+  },
+  {
+    "id": 16,
+    "original_query": "I'm <GPE_2>, 35. I have insomnia. Is <PERSON_1> safe long-term?",
+    "processed_query": "I'm <GPE_2>, 35. I have insomnia. Is <PERSON_1> safe long-term?",
+    "mask_map": {},
+    "retrieved_count": 3,
+    "retrieved_cases": [
+      {
+        "query": "I'm <PERSON_2>, 64. I have arthritis pain. Is <GPE_1> safe?",
+        "report": "Yes, Acetaminophen is first-line for osteoarthritis pain when used at recommended doses."
+      },
+      {
+        "query": "I'm <PERSON_3>, 68. Diagnosed with <GPE_2>'s. What <GPE_1> inhibitor?",
+        "report": "Ibrutinib is used for Waldenstr\u00f6m's macroglobulinemia."
+      },
+      {
+        "query": "My name is Franz, 50. I have muscle strain. Is <PERSON_1> safe?",
+        "report": "Yes, topical Menthol products are safe for muscle pain relief."
+      }
+    ],
+    "final_answer": "Yes, Acetaminophen is safe for chronic insomnia when used occasionally.",
+    "consent_given": true
+  },
+  {
+    "id": 17,
+    "original_query": "I'm Hilda, 41. My Imitrex for migraines is costly. Options?",
+    "processed_query": "I'm <PERSON_1>, 41. [NAME] for migraines is costly. Options?",
+    "mask_map": {
+      "<PERSON_1>": "Hilda"
+    },
+    "retrieved_count": 3,
+    "retrieved_cases": [
+      {
+        "query": "My name as is <PERSON_2>, 45. I have migraine with aura. What <PERSON_1>?",
+        "report": "Triptans are generally safe with aura if taken after headache onset, not during aura."
+      },
+      {
+        "query": "My name is <GPE_1>, 53. I have chronic migraine. What preventive?",
+        "report": "Topiramate, Propranolol, or CGRP monoclonal antibodies for chronic migraine prevention."
+      },
+      {
+        "query": "My name is Clara, 29. I have migraine headaches. What abortive medication?",
+        "report": "Triptans like Sumatriptan or Rizatriptan are first-line for acute migraine attacks."
+      }
+    ],
+    "final_answer": "Sumatriptan or Triptans are first-line for acute migraine attacks.",
+    "consent_given": false
+  },
+  {
+    "id": 18,
+    "original_query": "My name is <GPE_1>, 44. I have rheumatoid arthritis. What DMARD?",
+    "processed_query": "My name is <GPE_1>, 44. I have rheumatoid arthritis. What DMARD?",
+    "mask_map": {},
+    "retrieved_count": 3,
+    "retrieved_cases": [
+      {
+        "query": "I'm <PERSON_2>, 64. I have arthritis pain. Is <GPE_1> safe?",
+        "report": "Yes, Acetaminophen is first-line for osteoarthritis pain when used at recommended doses."
+      },
+      {
+        "query": "My name as is <GPE_1>, 56. I have EGPA. What mepolizumab?",
+        "report": "Mepolizumab for eosinophilic granulomatosis with polyangiitis."
+      },
+      {
+        "query": "My name is <GPE_1>, 47. I have psoriasis. What biologic?",
+        "report": "TNF inhibitors, IL-17 inhibitors, or IL-23 inhibitors based on severity and type."
+      }
+    ],
+    "final_answer": "Methotrexate or other DMARDs are first-line for rheumatoid arthritis.",
+    "consent_given": true
+  },
+  {
+    "id": 19,
+    "original_query": "I'm Sameer, 70. I have eosinophilic esophagitis. What fluticasone?",
+    "processed_query": "I'm Sameer, 70. I have eosinophilic esophagitis. What fluticasone?",
+    "mask_map": {},
+    "retrieved_count": 3,
+    "retrieved_cases": [
+      {
+        "query": "I'm <PERSON_1>, 79. I have dermatomyositis. What IVIG?",
+        "report": "IVIG for refractory dermatomyositis."
+      },
+      {
+        "query": "I'm Sameer, 91. I have <PERSON_1> disease. What treprostinil?",
+        "report": "Treprostinil for malignant Degos disease with systemic involvement."
+      },
+      {
+        "query": "I'm Ganesh, 60. I have dermatomyositis. What steroid-sparing agent?",
+        "report": "Methotrexate or Azathioprine as steroid-sparing agents."
+      }
+    ],
+    "final_answer": "Fluticasone for eosinophilic esophagitis.",
+    "consent_given": false
+  },
+  {
+    "id": 20,
+    "original_query": "My name is Radhika, 66. I have essential tremor. What propranolol?",
+    "processed_query": "My name is <PERSON_1>, 66. I have essential tremor. What propranolol?",
+    "mask_map": {
+      "<PERSON_1>": "Radhika"
+    },
+    "retrieved_count": 3,
+    "retrieved_cases": [
+      {
+        "query": "My name is Falguni, 56. I have essential tremor. What primidone dose?",
+        "report": "Primidone 25-250mg at bedtime, titrated slowly for essential tremor."
+      },
+      {
+        "query": "I'm <PERSON_1>, 71. Diagnosed with Parkinson's. What for tremor?",
+        "report": "Levodopa is primary, but anticholinergics or beta-blockers may help specific tremor."
+      },
+      {
+        "query": "My name as is <PERSON_1>, 43. I have narcolepsy. What stimulant?",
+        "report": "Modafinil or Armodafinil first-line; Sodium Oxybate for cataplexy."
+      }
+    ],
+    "final_answer": "Propranolol is used for severe tremor, but caution for orthostatic hypotension.",
+    "consent_given": false
+  },
+  {
+    "id": 21,
+    "original_query": "I'm <GPE_1>, 58. Diagnosed with prostate cancer. What hormone therapy?",
+    "processed_query": "I'm <GPE_1>, 58. Diagnosed with prostate cancer. What hormone therapy?",
+    "mask_map": {},
+    "retrieved_count": 3,
+    "retrieved_cases": [
+      {
+        "query": "I'm <PERSON_3>, 68. Diagnosed with <GPE_2>'s. What <GPE_1> inhibitor?",
+        "report": "Ibrutinib is used for Waldenstr\u00f6m's macroglobulinemia."
+      },
+      {
+        "query": "I'm <PERSON_1>, 62. Diagnosed with Cushing's. What steroidogenesis inhibitor?",
+        "report": "Ketoconazole or Metyrapone while awaiting definitive treatment."
+      },
+      {
+        "query": "I'm <GPE_1>, 42. Diagnosed with hypertension. What's the usual first medication?",
+        "report": "Thiazide diuretics like Hydrochlorothiazide or ACE inhibitors like Lisinopril are common first-line treatments for high blood pressure."
+      }
+    ],
+    "final_answer": "GnRH agonists like Leuprolide or Triamcinolone are first-line for metastatic prostate cancer.",
+    "consent_given": false
+  },
+  {
+    "id": 22,
+    "original_query": "I'm Akash, 95. I have Crow-Fukase syndrome. What radiation dose?",
+    "processed_query": "I'm Akash, 95. I have Crow-Fukase syndrome. What radiation dose?",
+    "mask_map": {},
+    "retrieved_count": 3,
+    "retrieved_cases": [
+      {
+        "query": "I'm Esha, 63. I have Sneddon-Wilkinson. What dapsone dose?",
+        "report": "Dapsone 50-150mg daily for subcorneal pustular dermatosis."
+      },
+      {
+        "query": "I'm <PERSON_2>, 66. I have <PERSON_1>. What IVIG dose?",
+        "report": "IVIG 2g/kg over 2-5 days for Guillain-Barr\u00e9 syndrome."
+      },
+      {
+        "query": "My name is Leela, 44. I have myasthenia gravis. What pyridostigmine dose?",
+        "report": "Pyridostigmine 30-60mg every 4-6 hours for myasthenia symptoms."
+      }
+    ],
+    "final_answer": "1500cGy for malignant otitis externa; lower for other forms.",
+    "consent_given": false
+  },
+  {
+    "id": 23,
+    "original_query": "I'm Omkar, 89. I have Lemierre's syndrome. What anticoagulation?",
+    "processed_query": "I'm <PERSON_2>, 89. I have <PERSON_1>'s syndrome. What anticoagulation?",
+    "mask_map": {
+      "<PERSON_1>": "Lemierre",
+      "<PERSON_2>": "Omkar"
+    },
+    "retrieved_count": 3,
+    "retrieved_cases": [
+      {
+        "query": "I'm <PERSON_2>, 68. I have <PERSON_1> syndrome. What treatment?",
+        "report": "Hydroxychloroquine with corticosteroids for Rowell syndrome."
+      },
+      {
+        "query": "I'm <PERSON_2>, 89. I have <PERSON_1> syndrome. What diagnostic criteria?",
+        "report": "Rowell syndrome: lupus erythematosus with erythema multiforme-like lesions."
+      },
+      {
+        "query": "I'm <PERSON_2>, 72. Diagnosed with heart failure. What <PERSON_1> inhibitor?",
+        "report": "Dapagliflozin or Empagliflozin are now standard for heart failure regardless of diabetes."
+      }
+    ],
+    "final_answer": "Warfarin or other anticoagulants may be tried for severe thrombosis.]",
+    "consent_given": false
+  },
+  {
+    "id": 24,
+    "original_query": "I'm pretty sure I have hemorrhoids. Can I get Preparation H at drugstore?",
+    "processed_query": "I'm pretty sure I have hemorrhoids. Can I get Preparation H at drugstore?",
+    "mask_map": {},
+    "retrieved_count": 3,
+    "retrieved_cases": [
+      {
+        "query": "I'm <PERSON_1>, 26. I'm pretty sure I have hemorrhoids. Can I get Preparation H?",
+        "report": "Yes, for mild self-diagnosed hemorrhoids, OTC creams with hydrocortisone are appropriate."
+      },
+      {
+        "query": "My name is <PERSON_1>, 55. I have hemorrhoids. [NAME] H appropriate?",
+        "report": "Yes, Preparation H with Hydrocortisone is suitable for short-term hemorrhoid symptom relief."
+      },
+      {
+        "query": "My name is Klaus, 43. I have poison oak rash. Can I use Hydrocortisone?",
+        "report": "Yes, OTC Hydrocortisone cream can help relieve itching from poison oak dermatitis."
+      }
+    ],
+    "final_answer": "Yes, OTC Preparation H with Hydrocortisone is appropriate for self-diagnosed hemorrhoids.",
+    "consent_given": false
+  },
+  {
+    "id": 25,
+    "original_query": "I'm <PERSON_2>, 40. I have trouble focusing. Is <PERSON_1> helpful?",
+    "processed_query": "I'm <PERSON_2>, 40. I have trouble focusing. Is <PERSON_1> helpful?",
+    "mask_map": {},
+    "retrieved_count": 3,
+    "retrieved_cases": [
+      {
+        "query": "I'm <PERSON_2>, 70. I have PRP. What <PERSON_1>?",
+        "report": "Acitretin for pityriasis rubra pilaris."
+      },
+      {
+        "query": "I'm <PERSON_1>, 41. My antidepressant makes me jittery. Concern?",
+        "report": "Agitation can occur with some antidepressants. Dose adjustment or medication change may help."
+      },
+      {
+        "query": "I'm <PERSON_2>, 72. Diagnosed with heart failure. What <PERSON_1> inhibitor?",
+        "report": "Dapagliflozin or Empagliflozin are now standard for heart failure regardless of diabetes."
+      }
+    ],
+    "final_answer": "Pramipexole or Rilimpastro are (or were) available for restless legs syndrome. Current evidence is limited.",
+    "consent_given": false
+  },
+  {
+    "id": 26,
+    "original_query": "My name is <PERSON_1>, 78. I have mesenteric panniculitis. What colchicine?",
+    "processed_query": "My name is <PERSON_1>, 78. I have mesenteric panniculitis. What colchicine?",
+    "mask_map": {},
+    "retrieved_count": 3,
+    "retrieved_cases": [
+      {
+        "query": "My name is Varsha, 59. I have mesenteric panniculitis. What tamoxifen?",
+        "report": "Tamoxifen may help symptomatic mesenteric panniculitis."
+      },
+      {
+        "query": "I'm <PERSON_1>, 79. I have dermatomyositis. What IVIG?",
+        "report": "IVIG for refractory dermatomyositis."
+      },
+      {
+        "query": "My name is <PERSON_2>, 53. I have <PERSON_1> syndrome. What anakinra?",
+        "report": "Anakinra highly effective for Schnitzler syndrome."
+      }
+    ],
+    "final_answer": "Colchicine may be tried for symptomatic panniculitis.",
+    "consent_given": false
+  },
+  {
+    "id": 27,
+    "original_query": "I'm <PERSON_1>, 87. I have PRP. What methotrexate?",
+    "processed_query": "I'm <PERSON_1>, 87. I have PRP. What methotrexate?",
+    "mask_map": {},
+    "retrieved_count": 3,
+    "retrieved_cases": [
+      {
+        "query": "I'm <PERSON_2>, 70. I have PRP. What <PERSON_1>?",
+        "report": "Acitretin for pityriasis rubra pilaris."
+      },
+      {
+        "query": "I'm <PERSON_1>, 57. I have multicentric reticulohistiocytosis. What methotrexate?",
+        "report": "Methotrexate with corticosteroids for multicentric reticulohistiocytosis."
+      },
+      {
+        "query": "I'm Sameer, 91. I have <PERSON_1> disease. What treprostinil?",
+        "report": "Treprostinil for malignant Degos disease with systemic involvement."
+      }
+    ],
+    "final_answer": "Methotrexate may be tried for PRP.",
+    "consent_given": false
+  },
+  {
+    "id": 28,
+    "original_query": "I'm Dirk, 35. I'm pretty sure I have jock itch. Can I use antifungal cream?",
+    "processed_query": "I'm Dirk, 35. I'm pretty sure I have jock itch. Can I use antifungal cream?",
+    "mask_map": {},
+    "retrieved_count": 3,
+    "retrieved_cases": [
+      {
+        "query": "I'm <PERSON_1>, 20. I have jock itch. Can I use same Clotrimazole as athlete's foot?",
+        "report": "Yes, Clotrimazole is effective against both jock itch and athlete's foot fungi."
+      },
+      {
+        "query": "I'm Ute, 39. I have vaginal itching. Is <PERSON_1> appropriate?",
+        "report": "Yes, if you've had diagnosed yeast infections before, OTC Miconazole is appropriate."
+      },
+      {
+        "query": "My name is Lars, 57. I have toenail fungus. Can I use topical <GPE_1>?",
+        "report": "Topical antifungals have limited nail penetration. Oral Terbinafine is more effective for fungal nails."
+      }
+    ],
+    "final_answer": "Yes, Clotrimazole is appropriate for jock itch. Use at recommended skin application strengths.",
+    "consent_given": true
+  },
+  {
+    "id": 29,
+    "original_query": "My name is Bernd, 63. My diabetes drug causes UTIs. Risk?",
+    "processed_query": "My name is Bernd, 63. My diabetes drug causes UTIs. Risk?",
+    "mask_map": {},
+    "retrieved_count": 3,
+    "retrieved_cases": [
+      {
+        "query": "My name as is <PERSON_1>, 33. I have UTI. Can cranberry pills cure it?",
+        "report": "Cranberry may help prevention but cannot cure active infection. Antibiotics are required."
+      },
+      {
+        "query": "My name is <PERSON_1>, 38. I have urinary tract infection. What antibiotic?",
+        "report": "Nitrofurantoin or Trimethoprim-sulfamethoxazole are first-line for uncomplicated UTIs."
+      },
+      {
+        "query": "My name as is Ursula, 29. I have UTI symptoms. Can I take my old Cipro?",
+        "report": "No, complete full course when prescribed. Old antibiotics may not match current infection."
+      }
+    ],
+    "final_answer": "Amaryl can increase risk of vaginal yeast infections. Contact dermatitis is possible.",
+    "consent_given": false
+  },
+  {
+    "id": 30,
+    "original_query": "I'm Qasim, 73. I have hemochromatosis. What phlebotomy schedule?",
+    "processed_query": "I'm <PERSON_1>, 73. I have hemochromatosis. What phlebotomy schedule?",
+    "mask_map": {
+      "<PERSON_1>": "Qasim"
+    },
+    "retrieved_count": 3,
+    "retrieved_cases": [
+      {
+        "query": "I'm <PERSON_1>, 67. Diagnosed with polycythemia vera. What phlebotomy target?",
+        "report": "Phlebotomy to hematocrit <45% in men, <42% in women."
+      },
+      {
+        "query": "I'm <GPE_1>, 69. I have primary myelofibrosis. What fedratinib?",
+        "report": "Fedratinib for myelofibrosis in patients resistant to ruxolitinib."
+      },
+      {
+        "query": "I'm <PERSON_1>, 26. I'm pretty sure I have hemorrhoids. Can I get Preparation H?",
+        "report": "Yes, for mild self-diagnosed hemorrhoids, OTC creams with hydrocortisone are appropriate."
+      }
+    ],
+    "final_answer": "Phlebotomy to hematocrit <32% in men, <30% in women.",
+    "consent_given": false
+  },
+  {
+    "id": 31,
+    "original_query": "I'm <PERSON_1>, 44. I have cold symptoms. Is DayQuil safe?",
+    "processed_query": "I'm <PERSON_1>, 44. I have cold symptoms. Is DayQuil safe?",
+    "mask_map": {},
+    "retrieved_count": 3,
+    "retrieved_cases": [
+      {
+        "query": "My name is Dieter, 53. I have nasal congestion. [NAME] safe?",
+        "report": "Oxymetazoline should only be used for 3 days maximum to avoid rebound congestion."
+      },
+      {
+        "query": "My name is <PERSON_2>, 61. I have bronchitis cough. Is <GPE_1> DM okay?",
+        "report": "Yes, Dextromethorphan can help suppress cough from bronchitis."
+      },
+      {
+        "query": "My name is <PERSON_1>, 52. My blood pressure med causes cough. Normal?",
+        "report": "Dry cough is a common side effect of ACE inhibitors. Your doctor can switch you to an ARB."
+      }
+    ],
+    "final_answer": "Yes, Dextromethorphan is safe for cold symptoms.",
+    "consent_given": false
+  },
+  {
+    "id": 32,
+    "original_query": "My name as is <PERSON_1>, 45. Metformin causes stomach issues. Normal?",
+    "processed_query": "My name as is <PERSON_1>, 45. Metformin causes stomach issues. Normal?",
+    "mask_map": {},
+    "retrieved_count": 3,
+    "retrieved_cases": [
+      {
+        "query": "My name is Bianca, 43. I have PCOS. What metformin dose?",
+        "report": "Typically starts 500mg daily, may increase to 1500-2000mg based on tolerance."
+      },
+      {
+        "query": "My name is <PERSON_1>, 58. I have acid reflux. [NAME] AC safe?",
+        "report": "Yes, Famotidine is safe for occasional heartburn relief."
+      },
+      {
+        "query": "I was prescribed <PERSON_1> but worried about weight gain. Is this normal?",
+        "report": "Weight gain and fluid retention are common side effects of corticosteroids, usually temporary with short-term use."
+      }
+    ],
+    "final_answer": "Sometimes metformin can cause gastrointestinal discomfort. Use [NAME] for specific information on metformin side effects.",
+    "consent_given": false
+  },
+  {
+    "id": 33,
+    "original_query": "I'm Uday, 87. I have Wells syndrome. What dapsone?",
+    "processed_query": "I'm Uday, 87. I have Wells syndrome. What dapsone?",
+    "mask_map": {},
+    "retrieved_count": 3,
+    "retrieved_cases": [
+      {
+        "query": "My name is <PERSON_2>, 54. I have <PERSON_1>'s disease. What prednisone?",
+        "report": "Prednisone 30-60mg daily for Kimura's disease."
+      },
+      {
+        "query": "My name is <GPE_2>, 55. I have <PERSON_1> syndrome. What treatment?",
+        "report": "Vitrectomy for persistent vitreous hemorrhage."
+      },
+      {
+        "query": "I'm <PERSON_2>, 68. I have <PERSON_1> syndrome. What treatment?",
+        "report": "Hydroxychloroquine with corticosteroids for Rowell syndrome."
+      }
+    ],
+    "final_answer": "Dapsone is used to control skin lesions in primary axillary hyperhidrosis.",
+    "consent_given": true
+  },
+  {
+    "id": 34,
+    "original_query": "My name is Larissa, 44. I have lupus. What hydroxychloroquine dose?",
+    "processed_query": "My name is <PERSON_1>, 44. I have lupus. What hydroxychloroquine dose?",
+    "mask_map": {
+      "<PERSON_1>": "Larissa"
+    },
+    "retrieved_count": 3,
+    "retrieved_cases": [
+      {
+        "query": "My name is Leela, 44. I have myasthenia gravis. What pyridostigmine dose?",
+        "report": "Pyridostigmine 30-60mg every 4-6 hours for myasthenia symptoms."
+      },
+      {
+        "query": "My name as is <PERSON_1>, 53. I have Addison's. What fludrocortisone dose?",
+        "report": "Fludrocortisone 0.1mg daily typically, adjusted by blood pressure and electrolytes."
+      },
+      {
+        "query": "My name is Zola, 53. I have sarcoidosis. What steroid dose?",
+        "report": "Prednisone 20-40mg daily initially, tapered to lowest effective dose."
+      }
+    ],
+    "final_answer": "Pyridostigmine 30-60mg every 6-8 hours for lupus symptoms. Check blood pressure and adjust accordingly.",
+    "consent_given": false
+  },
+  {
+    "id": 35,
+    "original_query": "My name as is Trisha, 72. I have HLH. What HLH-94 protocol?",
+    "processed_query": "My name as is Trisha, 72. I have HLH. What HLH-94 protocol?",
+    "mask_map": {},
+    "retrieved_count": 3,
+    "retrieved_cases": [
+      {
+        "query": "My name as is Heena, 47. I have HLH. What etoposide?",
+        "report": "Etoposide with dexamethasone for hemophagocytic lymphohistiocytosis."
+      },
+      {
+        "query": "I'm Akash, 74. I have PAH. What macitentan?",
+        "report": "Macitentan 10mg daily for pulmonary arterial hypertension."
+      },
+      {
+        "query": "My name is <PERSON_2>, 74. I have <GPE_1>'s. What zanubrutinib?",
+        "report": "Zanubrutinib alternative BTK inhibitor for Waldenstr\u00f6m's."
+      }
+    ],
+    "final_answer": "Etoposide 94mg/kg is the recommended regimen.",
+    "consent_given": true
+  },
+  {
+    "id": 36,
+    "original_query": "My name is Hina, 47. I have cystitis. What for recurrent UTIs?",
+    "processed_query": "My name is Hina, 47. I have cystitis. What for recurrent UTIs?",
+    "mask_map": {},
+    "retrieved_count": 3,
+    "retrieved_cases": [
+      {
+        "query": "My name as is <PERSON_1>, 33. I have UTI. Can cranberry pills cure it?",
+        "report": "Cranberry may help prevention but cannot cure active infection. Antibiotics are required."
+      },
+      {
+        "query": "My name is <PERSON_1>, 38. I have urinary tract infection. What antibiotic?",
+        "report": "Nitrofurantoin or Trimethoprim-sulfamethoxazole are first-line for uncomplicated UTIs."
+      },
+      {
+        "query": "My name as is Ursula, 29. I have UTI symptoms. Can I take my old Cipro?",
+        "report": "No, complete full course when prescribed. Old antibiotics may not match current infection."
+      }
+    ],
+    "final_answer": "Fluorouracil or Arginine-Melelithocin are options for recurrent UTIs.",
+    "consent_given": true
+  },
+  {
+    "id": 37,
+    "original_query": "My name as is Ritu, 78. I have trigeminal trophic syndrome. What referral?",
+    "processed_query": "My name as is <PERSON_1>, 78. I have trigeminal trophic syndrome. What referral?",
+    "mask_map": {
+      "<PERSON_1>": "Ritu"
+    },
+    "retrieved_count": 3,
+    "retrieved_cases": [
+      {
+        "query": "My name as is <PERSON_1>, 58. I have trigeminal trophic syndrome. What medication?",
+        "report": "Carbamazepine or Gabapentin for neuropathic pain in this condition."
+      },
+      {
+        "query": "My name as is <PERSON_1>, 74. I have EGPA. What glucocorticoid taper?",
+        "report": "Glucocorticoids tapered over 6-12 months for eosinophilic granulomatosis."
+      },
+      {
+        "query": "I'm Sameer, 91. I have <PERSON_1> disease. What treprostinil?",
+        "report": "Treprostinil for malignant Degos disease with systemic involvement."
+      }
+    ],
+    "final_answer": "Carbamazepine or Gabapentin for neuropathic pain in this condition.",
+    "consent_given": false
+  },
+  {
+    "id": 38,
+    "original_query": "My name as is Helena, 42. I have Crohn's disease. What biologic medication?",
+    "processed_query": "My name as is Helena, 42. I have Crohn's disease. What biologic medication?",
+    "mask_map": {},
+    "retrieved_count": 3,
+    "retrieved_cases": [
+      {
+        "query": "My name is <GPE_1>, 46. I have ulcerative colitis. What aminosalicylate?",
+        "report": "Mesalamine is first-line, available oral or rectal depending on disease extent."
+      },
+      {
+        "query": "My name is <GPE_1>, 47. I have fibromyalgia. What medication first?",
+        "report": "Duloxetine, Milnacipran, or Pregabalin are first-line for fibromyalgia."
+      },
+      {
+        "query": "My name is <GPE_1>, 47. I have psoriasis. What biologic?",
+        "report": "TNF inhibitors, IL-17 inhibitors, or IL-23 inhibitors based on severity and type."
+      }
+    ],
+    "final_answer": "Ulcerative colitis: Mesalamine is first-line. Crohn's disease: Monoclonal antibodies like Igg4-Ret are latest.",
+    "consent_given": true
+  },
+  {
+    "id": 39,
+    "original_query": "My name is Bina, 46. I have trigeminal neuralgia. What medication?",
+    "processed_query": "My name is <PERSON_1>, 46. I have trigeminal neuralgia. What medication?",
+    "mask_map": {
+      "<PERSON_1>": "Bina"
+    },
+    "retrieved_count": 3,
+    "retrieved_cases": [
+      {
+        "query": "My name is <GPE_1>, 47. I have fibromyalgia. What medication first?",
+        "report": "Duloxetine, Milnacipran, or Pregabalin are first-line for fibromyalgia."
+      },
+      {
+        "query": "My name as is <PERSON_1>, 58. I have trigeminal trophic syndrome. What medication?",
+        "report": "Carbamazepine or Gabapentin for neuropathic pain in this condition."
+      },
+      {
+        "query": "I'm <PERSON_1>, 48. Diagnosed with peripheral neuropathy. What medication for nerve pain?",
+        "report": "Gabapentin, Pregabalin, or Duloxetine are commonly used for neuropathic pain."
+      }
+    ],
+    "final_answer": "Carbamazepine or Gabapentin are first-line for trigeminal neuralgia.",
+    "consent_given": false
+  },
+  {
+    "id": 40,
+    "original_query": "My 3-year-old has fever. Can I give her a small piece of adult Tylenol?",
+    "processed_query": "My 3-year-old has fever. Can I give her a small piece of adult Tylenol?",
+    "mask_map": {},
+    "retrieved_count": 3,
+    "retrieved_cases": [
+      {
+        "query": "My 7-year-old daughter has cough. Is children's Delsym safe?",
+        "report": "Yes, children's Dextromethorphan is generally safe when following age and weight-based dosing."
+      },
+      {
+        "query": "My 9-year-old has strep throat. What antibiotic dosage?",
+        "report": "Amoxicillin is commonly prescribed with dosage based precisely on the child's weight."
+      },
+      {
+        "query": "My 5-year-old has ear infection. Can I use my <GPE_1>?",
+        "report": "No, never give adult medication to a child. Pediatric doses are weight-based and require proper calculation."
+      }
+    ],
+    "final_answer": "Yes, <GPE_2> is appropriate for child-specific dosing. Use a small, pediatric-safe amount.",
+    "consent_given": false
+  },
+  {
+    "id": 41,
+    "original_query": "I'm Omar, 59. Diagnosed with type 1 diabetes. What insulin regimen?",
+    "processed_query": "I'm Omar, 59. Diagnosed with type 1 diabetes. What insulin regimen?",
+    "mask_map": {},
+    "retrieved_count": 3,
+    "retrieved_cases": [
+      {
+        "query": "I'm Victor, 58. Diagnosed with type 2 diabetes. What's the first medication tried?",
+        "report": "Metformin is the first-line medication for type 2 diabetes, helping improve insulin sensitivity."
+      },
+      {
+        "query": "I'm Kaito, 58. Diagnosed with HIV. What INSTI regimen?",
+        "report": "Bictegravir/Emtricitabine/Tenofovir or Dolutegravir-based regimens are first-line."
+      },
+      {
+        "query": "I'm <GPE_1>, 66. Diagnosed with wet macular degeneration. What injection?",
+        "report": "Anti-VEGF injections like Ranibizumab or Aflibercept are standard treatment."
+      }
+    ],
+    "final_answer": "Insulin is the primary treatment. Type 1 uses premixed or regular insulin, while Type 2 may use long-acting insulins like NPH or Lantus for nighttime control.",
+    "consent_given": true
+  },
+  {
+    "id": 42,
+    "original_query": "My 16-year-old has severe acne. Can I buy her Differin gel?",
+    "processed_query": "My 16-year-old has severe acne. Can I buy her Differin gel?",
+    "mask_map": {},
+    "retrieved_count": 3,
+    "retrieved_cases": [
+      {
+        "query": "My 6-year-old has asthma. Can I give her my Albuterol inhaler?",
+        "report": "No, pediatric asthma requires proper diagnosis and age-appropriate delivery devices."
+      },
+      {
+        "query": "I'm Sabine, 29. I have sunburn. Can I use Aloe Vera gel?",
+        "report": "Yes, Aloe Vera can soothe sunburn, but avoid products with added anesthetics."
+      },
+      {
+        "query": "My name is <PERSON_2>, 41. I have sinus infection. Can I take my daughter's <GPE_1>?",
+        "report": "Absolutely not. Never use anyone else's prescription. Dose is incorrect for adult."
+      }
+    ],
+    "final_answer": "Yes, Differin is a strong retinoid for acne. Use only under doctor's guidance.",
+    "consent_given": true
+  },
+  {
+    "id": 43,
+    "original_query": "My name as is <PERSON_1>, 72. I have Kaposi sarcoma. What paclitaxel?",
+    "processed_query": "My name as is <PERSON_1>, 72. I have Kaposi sarcoma. What paclitaxel?",
+    "mask_map": {},
+    "retrieved_count": 3,
+    "retrieved_cases": [
+      {
+        "query": "My name as is Trisha, 48. I have Kaposi sarcoma. What liposomal doxorubicin?",
+        "report": "Liposomal Doxorubicin for advanced Kaposi sarcoma."
+      },
+      {
+        "query": "My name is <PERSON_2>, 53. I have <PERSON_1> syndrome. What anakinra?",
+        "report": "Anakinra highly effective for Schnitzler syndrome."
+      },
+      {
+        "query": "I'm <PERSON_1>, 85. I have pseudotumor cerebri. What topiramate?",
+        "report": "Topiramate alternative to acetazolamide for IIH."
+      }
+    ],
+    "final_answer": "Paclitaxel used for cutaneous and visceral Kaposi sarcoma.",
+    "consent_given": false
+  },
+  {
+    "id": 44,
+    "original_query": "I'm Amit, 57. Diagnosed with ITP. What first-line treatment?",
+    "processed_query": "I'm Amit, 57. Diagnosed with ITP. What first-line treatment?",
+    "mask_map": {},
+    "retrieved_count": 3,
+    "retrieved_cases": [
+      {
+        "query": "My name is <GPE_2>, 55. I have <PERSON_1> syndrome. What treatment?",
+        "report": "Vitrectomy for persistent vitreous hemorrhage."
+      },
+      {
+        "query": "I'm Hugo, 53. Diagnosed with BPH. What alpha-blocker?",
+        "report": "Tamsulosin or Alfuzosin are alpha-blockers commonly used for benign prostatic hyperplasia symptoms."
+      },
+      {
+        "query": "My name as is <GPE_1>, 55. I have Fahr's disease. What treatment?",
+        "report": "No specific treatment; manage movement disorders or psychiatric symptoms."
+      }
+    ],
+    "final_answer": "Corticosteroids are first-line treatment for acute episodes of immune thrombocytopenia.",
+    "consent_given": true
+  },
+  {
+    "id": 45,
+    "original_query": "I'm <PERSON_1>, 58. I have G6PD deficiency. What medications avoided?",
+    "processed_query": "I'm <PERSON_1>, 58. I have G6PD deficiency. What medications avoided?",
+    "mask_map": {},
+    "retrieved_count": 3,
+    "retrieved_cases": [
+      {
+        "query": "I'm <PERSON_1>, 73. I have G6PD deficiency. What drugs absolutely avoided?",
+        "report": "Dapsone, Primaquine, Nitrofurantoin absolutely contraindicated."
+      },
+      {
+        "query": "I'm <PERSON_1>, 64. I have erythromelalgia. What medication?",
+        "report": "Aspirin may help secondary form; Gabapentin or Mexiletine for primary."
+      },
+      {
+        "query": "My name is <GPE_2>, 55. I have <PERSON_1> syndrome. What treatment?",
+        "report": "Vitrectomy for persistent vitreous hemorrhage."
+      }
+    ],
+    "final_answer": "Absolute contraindications: Pyrimethamine-Sulfadoxine for prevention of Malaria.",
+    "consent_given": false
+  },
+  {
+    "id": 46,
+    "original_query": "I'm <PERSON_1>, 28. I have motion sickness. Can I take Dramamine?",
+    "processed_query": "I'm <PERSON_1>, 28. I have motion sickness. Can I take Dramamine?",
+    "mask_map": {},
+    "retrieved_count": 3,
+    "retrieved_cases": [
+      {
+        "query": "I'm Brigitte, 70. I need antidepressant but worried about nausea.",
+        "report": "SSRIs can cause initial nausea that often subsides. Taking with food and starting low can minimize this."
+      },
+      {
+        "query": "I'm <PERSON_1>, 41. My antidepressant makes me jittery. Concern?",
+        "report": "Agitation can occur with some antidepressants. Dose adjustment or medication change may help."
+      },
+      {
+        "query": "I'm Gunther, 60. I take HCTZ. I have diarrhea. Can I take Loperamide?",
+        "report": "Yes, but focus on hydration with electrolytes since both can cause dehydration."
+      }
+    ],
+    "final_answer": "Yes, Dramamine is a specific remedy for travel sickness. It's safe to use before symptoms appear.",
+    "consent_given": true
+  },
+  {
+    "id": 47,
+    "original_query": "I'm <PERSON_1>, 33. I have seasonal allergies. [NAME] safe daily?",
+    "processed_query": "I'm <PERSON_1>, 33. I have seasonal allergies. [NAME] safe daily?",
+    "mask_map": {},
+    "retrieved_count": 3,
+    "retrieved_cases": [
+      {
+        "query": "My name is Dieter, 53. I have nasal congestion. [NAME] safe?",
+        "report": "Oxymetazoline should only be used for 3 days maximum to avoid rebound congestion."
+      },
+      {
+        "query": "My name is <PERSON_1>, 58. I have acid reflux. [NAME] AC safe?",
+        "report": "Yes, Famotidine is safe for occasional heartburn relief."
+      },
+      {
+        "query": "My 13-year-old has allergies. Is children's Zyrtec safe daily?",
+        "report": "Yes, Cetirizine is safe for children when using pediatric formulation and proper dosing."
+      }
+    ],
+    "final_answer": "Yes, Claritin/Diadem is safe for occasional use.",
+    "consent_given": false
+  },
+  {
+    "id": 48,
+    "original_query": "I'm Heidi, 26. I have menstrual cramps. Is Naproxen appropriate?",
+    "processed_query": "I'm Heidi, 26. I have menstrual cramps. Is Naproxen appropriate?",
+    "mask_map": {},
+    "retrieved_count": 3,
+    "retrieved_cases": [
+      {
+        "query": "I'm Ingo, 57. I take Lisinopril. Can I take Naproxen for back pain?",
+        "report": "NSAIDs can reduce antihypertensive effect and harm kidneys. Acetaminophen is preferred."
+      },
+      {
+        "query": "My name is Astrid, 29. I think I have UTI. Can I get cranberry pills?",
+        "report": "Cranberry may help prevention but cannot cure active UTI. You need antibiotics."
+      },
+      {
+        "query": "I'm Nadine, 28. I have bloating after eating. My mom takes IBS medicine. Should I try that?",
+        "report": "Bloating could be IBS, lactose intolerance, or other issues. See doctor for proper diagnosis first."
+      }
+    ],
+    "final_answer": "Yes, Naproxen is appropriate for menstrual cramps. It works by reducing inflammation. Always check with doctor before combining medications.",
+    "consent_given": true
+  },
+  {
+    "id": 49,
+    "original_query": "My name is Pooja, 56. I have trigeminal neuralgia. What carbamazepine?",
+    "processed_query": "My name is <GPE_1>, 56. I have trigeminal neuralgia. What carbamazepine?",
+    "mask_map": {
+      "<GPE_1>": "Pooja"
+    },
+    "retrieved_count": 3,
+    "retrieved_cases": [
+      {
+        "query": "My name is <GPE_1>, 47. I have fibromyalgia. What medication first?",
+        "report": "Duloxetine, Milnacipran, or Pregabalin are first-line for fibromyalgia."
+      },
+      {
+        "query": "My name as is <PERSON_1>, 58. I have trigeminal trophic syndrome. What medication?",
+        "report": "Carbamazepine or Gabapentin for neuropathic pain in this condition."
+      },
+      {
+        "query": "My name as is <GPE_2>, 59. I have <PERSON_1>'s dry mouth. What pilocarpine?",
+        "report": "Pilocarpine 5mg three times daily for dry mouth in Sj\u00f6gren's."
+      }
+    ],
+    "final_answer": "Carbamazepine or Gabapentin are first-line for neuropathic pain in trigeminal neuralgia.",
+    "consent_given": false
+  },
+  {
+    "id": 50,
+    "original_query": "My name is <PERSON_2>, 38. I have endometriosis. What <PERSON_1> agonist?",
+    "processed_query": "My name is <PERSON_2>, 38. I have endometriosis. What <PERSON_1> agonist?",
+    "mask_map": {},
+    "retrieved_count": 3,
+    "retrieved_cases": [
+      {
+        "query": "My name as is Tara, 39. I have endometriosis pain. What progestin?",
+        "report": "Norethindrone or Dienogest can help control endometriosis pain."
+      },
+      {
+        "query": "My name as is <PERSON_2>, 50. I have <PERSON_1>'s disease. What tamoxifen?",
+        "report": "Tamoxifen may help retroperitoneal fibrosis."
+      },
+      {
+        "query": "My name is <PERSON_1>, 41. I have chronic pain. What SNRI?",
+        "report": "Duloxetine or Milnacipran are SNRIs used for chronic pain conditions."
+      }
+    ],
+    "final_answer": "Progestin-only pills or conventional GnRH agonists like Lupron are options for endometriosis.",
+    "consent_given": false
+  },
+  {
+    "id": 51,
+    "original_query": "My name is Neha, 58. I have Waldenstr\u00f6m's. What ibrutinib dose?",
+    "processed_query": "My name is <PERSON_2>, 58. I have <GPE_1>'s. What ibrutinib dose?",
+    "mask_map": {
+      "<GPE_1>": "Waldenstr\u00f6m",
+      "<PERSON_2>": "Neha"
+    },
+    "retrieved_count": 3,
+    "retrieved_cases": [
+      {
+        "query": "I'm <PERSON_2>, 66. I have <PERSON_1>. What IVIG dose?",
+        "report": "IVIG 2g/kg over 2-5 days for Guillain-Barr\u00e9 syndrome."
+      },
+      {
+        "query": "My name is <PERSON_2>, 74. I have <GPE_1>'s. What zanubrutinib?",
+        "report": "Zanubrutinib alternative BTK inhibitor for Waldenstr\u00f6m's."
+      },
+      {
+        "query": "I'm <PERSON_3>, 68. Diagnosed with <GPE_2>'s. What <GPE_1> inhibitor?",
+        "report": "Ibrutinib is used for Waldenstr\u00f6m's macroglobulinemia."
+      }
+    ],
+    "final_answer": "Ibritumomab is also used for non-Hodgkin's lymphoma.",
+    "consent_given": false
+  },
+  {
+    "id": 52,
+    "original_query": "I'm <PERSON_1>, 58. I have enlarged prostate. Is saw palmetto effective?",
+    "processed_query": "I'm <PERSON_1>, 58. I have enlarged prostate. Is saw palmetto effective?",
+    "mask_map": {},
+    "retrieved_count": 3,
+    "retrieved_cases": [
+      {
+        "query": "I'm <PERSON_1>, 45. I have trouble urinating. My father took prostate medicine. Should I start that?",
+        "report": "Urinary symptoms require prostate exam and PSA test to confirm BPH before starting medications."
+      },
+      {
+        "query": "My name is Detlef, 57. My prostate drug causes dizziness. Concern?",
+        "report": "Dizziness is common with alpha-blockers. Rise slowly from sitting or lying position."
+      },
+      {
+        "query": "I'm <PERSON_1>, 62. Diagnosed with Cushing's. What steroidogenesis inhibitor?",
+        "report": "Ketoconazole or Metyrapone while awaiting definitive treatment."
+      }
+    ],
+    "final_answer": "Evidence for saw palmetto is weak. Prostate specific antigen (PSA) should be checked. No interaction with other medications.",
+    "consent_given": true
+  },
+  {
+    "id": 53,
+    "original_query": "My name is <PERSON_1>, 45. I have anxiety disorder. What medication?",
+    "processed_query": "My name is <PERSON_1>, 45. I have anxiety disorder. What medication?",
+    "mask_map": {},
+    "retrieved_count": 3,
+    "retrieved_cases": [
+      {
+        "query": "My name is <PERSON_1>, 41. I have depression. What SSRI?",
+        "report": "Sertraline, Escitalopram, or Fluoxetine are common first-line SSRIs for depression."
+      },
+      {
+        "query": "My name is <GPE_1>, 47. I have fibromyalgia. What medication first?",
+        "report": "Duloxetine, Milnacipran, or Pregabalin are first-line for fibromyalgia."
+      },
+      {
+        "query": "I'm <PERSON_1>, 41. My antidepressant makes me jittery. Concern?",
+        "report": "Agitation can occur with some antidepressants. Dose adjustment or medication change may help."
+      }
+    ],
+    "final_answer": "Sertraline or Escitalopram are options for anxiety. Clonazepam or Lorazepam are immediate relief but long-term use is not recommended.",
+    "consent_given": false
+  },
+  {
+    "id": 54,
+    "original_query": "I'm Ganesh, 75. I have Cushing's disease. What ketoconazole?",
+    "processed_query": "I'm Ganesh, 75. I have Cushing's disease. What ketoconazole?",
+    "mask_map": {},
+    "retrieved_count": 3,
+    "retrieved_cases": [
+      {
+        "query": "I'm <PERSON_1>, 62. Diagnosed with Cushing's. What steroidogenesis inhibitor?",
+        "report": "Ketoconazole or Metyrapone while awaiting definitive treatment."
+      },
+      {
+        "query": "I'm Usman, 65. I have pseudotumor cerebri. What acetazolamide?",
+        "report": "Acetazolamide 1-4g daily for idiopathic intracranial hypertension."
+      },
+      {
+        "query": "I'm Ganesh, 60. I have dermatomyositis. What steroid-sparing agent?",
+        "report": "Methotrexate or Azathioprine as steroid-sparing agents."
+      }
+    ],
+    "final_answer": "Ketoconazole for chronic use may cause hyperaldosteronism.",
+    "consent_given": false
+  },
+  {
+    "id": 55,
+    "original_query": "My name as is Bhavna, 49. I have Erdheim-Chester. What targeted therapy?",
+    "processed_query": "My name as is Bhavna, 49. I have Erdheim-Chester. What targeted therapy?",
+    "mask_map": {},
+    "retrieved_count": 3,
+    "retrieved_cases": [
+      {
+        "query": "My name as is Bhavna, 70. I have Fahr's disease. What management?",
+        "report": "Symptomatic management of movement disorders, psychiatric symptoms."
+      },
+      {
+        "query": "My name is <GPE_2>, 55. I have <PERSON_1> syndrome. What treatment?",
+        "report": "Vitrectomy for persistent vitreous hemorrhage."
+      },
+      {
+        "query": "My name is Varsha, 70. I have rare skeletal disorder. What IL-1 inhibitor?",
+        "report": "IL-1 inhibitors like Anakinra for certain autoinflammatory skeletal disorders."
+      }
+    ],
+    "final_answer": "Epirubicarshivir for chronic inflammation manifestations.",
+    "consent_given": true
+  },
+  {
+    "id": 56,
+    "original_query": "I'm Sameer, 70. Diagnosed with hairy cell leukemia. What cladribine?",
+    "processed_query": "I'm Sameer, 70. Diagnosed with hairy cell leukemia. What cladribine?",
+    "mask_map": {},
+    "retrieved_count": 3,
+    "retrieved_cases": [
+      {
+        "query": "I'm <PERSON_1>, 69. I have hairy cell leukemia. What cladribine?",
+        "report": "Cladribine 0.1mg/kg daily for 7 days continuous infusion."
+      },
+      {
+        "query": "I'm Cedric, 67. Diagnosed with low testosterone. What replacement?",
+        "report": "Testosterone gel, injections, or pellets for confirmed hypogonadism."
+      },
+      {
+        "query": "I'm <GPE_1>, 69. I have primary myelofibrosis. What fedratinib?",
+        "report": "Fedratinib for myelofibrosis in patients resistant to ruxolitinib."
+      }
+    ],
+    "final_answer": "Cladribine 25mg intravenous every other week for 2 weeks.",
+    "consent_given": true
+  },
+  {
+    "id": 57,
+    "original_query": "I'm <PERSON_1>, 71. Diagnosed with myelofibrosis. What ruxolitinib?",
+    "processed_query": "I'm <PERSON_1>, 71. Diagnosed with myelofibrosis. What ruxolitinib?",
+    "mask_map": {},
+    "retrieved_count": 3,
+    "retrieved_cases": [
+      {
+        "query": "I'm <GPE_1>, 69. I have primary myelofibrosis. What fedratinib?",
+        "report": "Fedratinib for myelofibrosis in patients resistant to ruxolitinib."
+      },
+      {
+        "query": "I'm Chirag, 64. Diagnosed with myelofibrosis. What JAK inhibitor?",
+        "report": "Ruxolitinib for symptomatic myelofibrosis."
+      },
+      {
+        "query": "I'm Orlando, 62. Diagnosed with pulmonary fibrosis. What antifibrotic?",
+        "report": "Pirfenidone or Nintedanib are approved antifibrotic medications."
+      }
+    ],
+    "final_answer": "",
+    "consent_given": false
+  },
+  {
+    "id": 58,
+    "original_query": "I'm <PERSON_2>, 61. Diagnosed with <GPE_1>. What factor replacement?",
+    "processed_query": "I'm <PERSON_2>, 61. Diagnosed with <GPE_1>. What factor replacement?",
+    "mask_map": {},
+    "retrieved_count": 3,
+    "retrieved_cases": [
+      {
+        "query": "I'm <PERSON_3>, 68. Diagnosed with <GPE_2>'s. What <GPE_1> inhibitor?",
+        "report": "Ibrutinib is used for Waldenstr\u00f6m's macroglobulinemia."
+      },
+      {
+        "query": "My name is <GPE_2>, 55. I have <PERSON_1> syndrome. What treatment?",
+        "report": "Vitrectomy for persistent vitreous hemorrhage."
+      },
+      {
+        "query": "My name is <GPE_2>, 84. I have <PERSON_1>'s disease. What surgical option?",
+        "report": "Surgical excision for localized Kimura's disease."
+      }
+    ],
+    "final_answer": "Vitamin D is the primary factor replacement.",
+    "consent_given": false
+  }
+]

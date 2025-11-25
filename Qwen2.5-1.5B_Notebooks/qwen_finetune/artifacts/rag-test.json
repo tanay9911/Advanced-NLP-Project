@@ -1,0 +1,542 @@
+[
+  {
+    "query": "My name is Virgil, 72. I have <PERSON_1>'s disease. What medical therapy?",
+    "report": "Tamoxifen or corticosteroids may be used for retroperitoneal fibrosis.",
+    "original_query": "My name is Virgil, 72. I have Ormond's disease. What medical therapy?",
+    "masked": true
+  },
+  {
+    "query": "My name is <GPE_1>, 30. I have chlamydia. What antibiotic?",
+    "report": "Azithromycin or Doxycycline are first-line treatments for chlamydia.",
+    "original_query": "My name is Christina, 30. I have chlamydia. What antibiotic?",
+    "masked": true
+  },
+  {
+    "query": "I'm <PERSON_2>, 59. My <PERSON_1> for infection is expensive. Alternative?",
+    "report": "Generic Ceftriaxone is a lower-cost cephalosporin antibiotic alternative.",
+    "original_query": "I'm Jonathan, 59. My Teflaro for infection is expensive. Alternative?",
+    "masked": true
+  },
+  {
+    "query": "My name is <PERSON_1>, 40. I have cold. [NAME] safe?",
+    "report": "Yes, Guaifenesin (Mucinex) is safe for chest congestion.",
+    "original_query": "My name is Scarlett, 40. I have cold. Is Mucinex safe?",
+    "masked": true
+  },
+  {
+    "query": "My name is <PERSON_1>, 34. I have razor burn. Is hydrocortisone safe?",
+    "report": "Yes, 1% hydrocortisone cream can help with razor burn inflammation.",
+    "original_query": "My name is Clara, 34. I have razor burn. Is hydrocortisone safe?",
+    "masked": true
+  },
+  {
+    "query": "I'm <PERSON_1>, 64. [NAME] for PAH is unaffordable. Options?",
+    "report": "Contact manufacturer assistance programs as there are few low-cost alternatives for PAH.",
+    "original_query": "I'm Sebastian, 64. My Tracleer for PAH is unaffordable. Options?",
+    "masked": true
+  },
+  {
+    "query": "I'm always tired and cold. My sister takes thyroid medicine. Should I get same?",
+    "report": "Your symptoms could indicate hypothyroidism. Ask your doctor for TSH blood test before considering medication.",
+    "masked": false
+  },
+  {
+    "query": "My 9-year-old has poison ivy. Is children's Benadryl cream safe?",
+    "report": "Yes, Diphenhydramine cream is safe for topical use in children for poison ivy itching relief.",
+    "masked": false
+  },
+  {
+    "query": "My name is Lisa, 49. I take Diabetes medication. Can I take Niacin?",
+    "report": "Niacin can raise blood sugar. Requires careful monitoring and possible medication adjustment.",
+    "masked": false
+  },
+  {
+    "query": "My name is Emily, 33. I have migraine. What abortive medication?",
+    "report": "Triptans like Sumatriptan are first-line for acute migraine attacks.",
+    "masked": false
+  },
+  {
+    "query": "I'm <PERSON_1>, 59. I have ear infection. Can I use my wife's ear drops?",
+    "report": "No, ear infections need proper diagnosis. Some require oral antibiotics, not just topical drops.",
+    "original_query": "I'm Christopher, 59. I have ear infection. Can I use my wife's ear drops?",
+    "masked": true
+  },
+  {
+    "query": "I'm Balthazar, 66. I have G6PD deficiency. What medications to avoid?",
+    "report": "Avoid sulfa drugs, nitrofurantoin, dapsone, and certain antimalarials in G6PD deficiency.",
+    "original_query": "I'm Balthazar, 66. I have G6PD deficiency. What medications to avoid?",
+    "masked": true
+  },
+  {
+    "query": "My name is <PERSON_1>, 49. I have anxiety. My friend takes Xanax. Should I try it?",
+    "report": "Benzodiazepines like Xanax have high addiction potential. Therapy and SSRIs are preferred first-line treatments.",
+    "original_query": "My name is Karen, 49. I have anxiety. My friend takes Xanax. Should I try it?",
+    "masked": true
+  },
+  {
+    "query": "My name is <GPE_2>, 70. I have <GPE_1> disease. What treatment?",
+    "report": "Supportive care with NSAIDs; corticosteroids for severe Kikuchi disease.",
+    "original_query": "My name is Upton, 70. I have Kikuchi disease. What treatment?",
+    "masked": true
+  },
+  {
+    "query": "My name is <PERSON_1>, 46. I have hot flashes. [NAME] safe?",
+    "report": "Black cohosh (Remifemin) may help some women, but evidence is mixed. Consult your doctor.",
+    "original_query": "My name is Iris, 46. I have hot flashes. Is Remifemin safe?",
+    "masked": true
+  },
+  {
+    "query": "I'm <PERSON_1>, 50. I have dermatomyositis. What immunosuppressant?",
+    "report": "Methotrexate or Azathioprine are used as steroid-sparing agents in dermatomyositis.",
+    "original_query": "I'm Eulalia, 50. I have dermatomyositis. What immunosuppressant?",
+    "masked": true
+  },
+  {
+    "query": "I'm Nicholas, 49. Diagnosed with type 2 diabetes. What GLP-1?",
+    "report": "Semaglutide or Liraglutide are GLP-1 receptor agonists for diabetes.",
+    "masked": false
+  },
+  {
+    "query": "I'm <PERSON_2>, 59. My <PERSON_1> eye drops are expensive. Alternative?",
+    "report": "Ask about using generic Timolol and Brimonidine separately, which may be cheaper combined.",
+    "original_query": "I'm Lucas, 59. My Combigan eye drops are expensive. Alternative?",
+    "masked": true
+  },
+  {
+    "query": "I'm <PERSON_1>, 48. I have adrenal insufficiency. What steroid replacement?",
+    "report": "Hydrocortisone is the preferred glucocorticoid for adrenal insufficiency replacement.",
+    "original_query": "I'm Persephone, 48. I have adrenal insufficiency. What steroid replacement?",
+    "masked": true
+  },
+  {
+    "query": "My 4-year-old has ear infection. Can I use my <GPE_1>?",
+    "report": "No, never give adult medication to a child. Pediatric doses are weight-based and require proper calculation.",
+    "original_query": "My 4-year-old has ear infection. Can I use my Amoxicillin?",
+    "masked": true
+  },
+  {
+    "query": "My name is <PERSON_1>, 41. I think I have bronchitis. Can I get Mucinex?",
+    "report": "Yes, guaifenesin (Mucinex) can help thin mucus for bronchitis symptoms, but see doctor if fever develops.",
+    "original_query": "My name is Mia, 41. I think I have bronchitis. Can I get Mucinex?",
+    "masked": true
+  },
+  {
+    "query": "I'm Robert, 60. I take HCTZ diuretic. I have diarrhea. Can I take Loperamide?",
+    "report": "Yes, Loperamide is safe. Focus on hydration with electrolytes since both can cause dehydration.",
+    "masked": false
+  },
+  {
+    "query": "I'm Carol, 52. My osteoporosis drug Reclast causes flu-like symptoms. Normal?",
+    "report": "Acute phase reaction with fever and body aches is common after first zoledronic acid infusion, usually resolves in days.",
+    "masked": false
+  },
+  {
+    "query": "My name is <GPE_1>, 55. I think I have UTI. Can I get D-mannose?",
+    "report": "D-mannose may help prevention but doesn't treat active UTI. You need antibiotics.",
+    "original_query": "My name is Penelope, 55. I think I have UTI. Can I get D-mannose?",
+    "masked": true
+  },
+  {
+    "query": "I'm <PERSON_1>, 35. Diagnosed with strep throat. What antibiotic is standard?",
+    "report": "Penicillin or Amoxicillin are first-line treatments for strep throat.",
+    "original_query": "I'm John, 35. Diagnosed with strep throat. What antibiotic is standard?",
+    "masked": true
+  },
+  {
+    "query": "I'm Mason, 35. I'm pretty sure I have jock itch. Can I use antifungal cream?",
+    "report": "Yes, OTC antifungal creams like clotrimazole are appropriate for self-treated jock itch.",
+    "original_query": "I'm Mason, 35. I'm pretty sure I have jock itch. Can I use antifungal cream?",
+    "masked": true
+  },
+  {
+    "query": "My name is Karen, 55. I have osteoporosis. What bisphosphonate?",
+    "report": "Alendronate is a common first-line bisphosphonate for osteoporosis.",
+    "masked": false
+  },
+  {
+    "query": "I'm <PERSON_1>, 52. [NAME] inhaler is expensive. Cheaper version?",
+    "report": "Ask about generic Fluticasone/Salmeterol dry powder inhalers, same medication lower cost.",
+    "original_query": "I'm Michael, 52. My Advair inhaler is expensive. Cheaper version?",
+    "masked": true
+  },
+  {
+    "query": "I'm Emily, 28. I have bloating after eating. My mom takes IBS medicine. Should I try that?",
+    "report": "Bloating could be IBS, lactose intolerance, or other issues. See doctor for proper diagnosis before self-medicating.",
+    "masked": false
+  },
+  {
+    "query": "My 12-year-old has acne. Is benzoyl peroxide wash safe for teens?",
+    "report": "Yes, benzoyl peroxide is first-line treatment for adolescent acne, starting with 2.5-5% strength to minimize irritation.",
+    "masked": false
+  },
+  {
+    "query": "My name is Emily, 51. I take Thyroid medication. Can I take Soy products?",
+    "report": "Consume several hours apart. Soy can interfere with Levothyroxine absorption.",
+    "masked": false
+  },
+  {
+    "query": "My 3-year-old has constipation. Is pediatric glycerin suppository safe?",
+    "report": "Yes, pediatric glycerin suppositories are safe for occasional constipation relief in young children.",
+    "original_query": "My 3-year-old has constipation. Is pediatric glycerin suppository safe?",
+    "masked": true
+  },
+  {
+    "query": "My name is Isolde, 38. I have cyclic neutropenia. What G-CSF?",
+    "report": "Filgrastim is used to increase neutrophil counts in cyclic neutropenia.",
+    "original_query": "My name is Isolde, 38. I have cyclic neutropenia. What G-CSF?",
+    "masked": true
+  },
+  {
+    "query": "My 11-year-old has braces mouth sores. [NAME] safe?",
+    "report": "Yes, protective barrier products like Orabase are safe for orthodontic mouth sore relief in children.",
+    "original_query": "My 11-year-old has braces mouth sores. Is Orabase safe?",
+    "masked": true
+  },
+  {
+    "query": "I'm <PERSON_1>, 39. I have acid reflux. [NAME] AC safe?",
+    "report": "Yes, Famotidine (Pepcid AC) is safe for occasional heartburn relief.",
+    "original_query": "I'm Julian, 39. I have acid reflux. Is Pepcid AC safe?",
+    "masked": true
+  },
+  {
+    "query": "My name is <PERSON_1>, 44. I have UTIs often. Is D-mannose preventive?",
+    "report": "D-mannose has good evidence for UTI prevention in frequently affected women, similar to low-dose antibiotics.",
+    "original_query": "My name is Mia, 44. I have UTIs often. Is D-mannose preventive?",
+    "masked": true
+  },
+  {
+    "query": "I'm Brian, 38. Diagnosed with ulcerative colitis. What aminosalicylate?",
+    "report": "Mesalamine is the first-line aminosalicylate for ulcerative colitis.",
+    "masked": false
+  },
+  {
+    "query": "I'm <PERSON_1>, 72. I have primary myelofibrosis. What JAK inhibitor?",
+    "report": "Ruxolitinib or Fedratinib are JAK inhibitors for primary myelofibrosis.",
+    "original_query": "I'm Casimir, 72. I have primary myelofibrosis. What JAK inhibitor?",
+    "masked": true
+  },
+  {
+    "query": "I'm <PERSON_1>, 35. My anxiety drug Xanax causes memory issues. Risk?",
+    "report": "Cognitive impairment and memory problems are known side effects of benzodiazepines, especially with long-term use.",
+    "original_query": "I'm Jessica, 35. My anxiety drug Xanax causes memory issues. Risk?",
+    "masked": true
+  },
+  {
+    "query": "I'm Asher, 43. I have sore throat. Are Chloraseptic sprays safe?",
+    "report": "Yes, Phenol sprays (Chloraseptic) are safe for temporary sore throat relief.",
+    "masked": false
+  },
+  {
+    "query": "My name is <PERSON_1>, 38. I have malaria. What antimalarial?",
+    "report": "Artemether-lumefantrine or Atovaquone-proguanil are common treatments.",
+    "original_query": "My name is Vanessa, 38. I have malaria. What antimalarial?",
+    "masked": true
+  },
+  {
+    "query": "My name is Percival, 68. I have Waldenstr\u00f6m's macroglobulinemia. What targeted therapy?",
+    "report": "Ibrutinib, a BTK inhibitor, is used for Waldenstr\u00f6m's macroglobulinemia.",
+    "masked": false
+  },
+  {
+    "query": "My 2-year-old has fever. Can I give her a small piece of adult Tylenol?",
+    "report": "No, this is extremely dangerous. Use only infant acetaminophen and measure dose precisely by weight with provided syringe.",
+    "original_query": "My 2-year-old has fever. Can I give her a small piece of adult Tylenol?",
+    "masked": true
+  },
+  {
+    "query": "I'm <PERSON_2>, 56. I have <PERSON_1> syndrome. What immunosuppressant?",
+    "report": "Hydroxychloroquine with corticosteroids for Rowell syndrome.",
+    "original_query": "I'm Yara, 56. I have Rowell syndrome. What immunosuppressant?",
+    "masked": true
+  },
+  {
+    "query": "I'm Julian, 49. I have mouth ulcer. Is Gly-Oxide safe?",
+    "report": "Yes, carbamide peroxide (Gly-Oxide) is safe for canker sore cleaning and relief.",
+    "masked": false
+  },
+  {
+    "query": "I'm <PERSON_1>, 65. I have shortness of breath. My friend uses inhalers. Should I?",
+    "report": "Shortness of breath needs immediate evaluation - could be heart, lung, or other serious conditions.",
+    "original_query": "I'm George, 65. I have shortness of breath. My friend uses inhalers. Should I?",
+    "masked": true
+  },
+  {
+    "query": "My name is Frederick, 59. I have cluster headaches. What oxygen protocol?",
+    "report": "100% oxygen at 12-15 L/min via non-rebreather mask for 15-20 minutes aborts cluster headache attacks.",
+    "masked": false
+  },
+  {
+    "query": "My name is Ruby, 33. I have UTI. Is Cystex effective?",
+    "report": "Cystex contains pain reliever and antibacterial, but antibiotics are needed for UTI treatment.",
+    "masked": false
+  },
+  {
+    "query": "My name is <PERSON_1>, 71. I have macular degeneration. What eye supplements are recommended?",
+    "report": "AREDS2 formula supplements with lutein and zeaxanthin are recommended for age-related macular degeneration.",
+    "original_query": "My name is Raphael, 71. I have macular degeneration. What eye supplements are recommended?",
+    "masked": true
+  },
+  {
+    "query": "My name is <PERSON_1>, 45. I have cold sores. Is lysine effective?",
+    "report": "Lysine may help reduce frequency and duration of cold sores for some people when taken regularly.",
+    "original_query": "My name is Madison, 45. I have cold sores. Is lysine effective?",
+    "masked": true
+  },
+  {
+    "query": "I'm <PERSON_1>, 67. I have wet AMD. What eye injections are used?",
+    "report": "Anti-VEGF injections like Ranibizumab or Aflibercept are standard for wet macular degeneration.",
+    "original_query": "I'm Sebastian, 67. I have wet AMD. What eye injections are used?",
+    "masked": true
+  },
+  {
+    "query": "My name is Elena, 38. I have PMS bloating. Is Midol safe?",
+    "report": "Yes, Midol is safe for PMS symptoms but check ingredients for potential allergies.",
+    "masked": false
+  },
+  {
+    "query": "My name is Amanda, 37. I have BV. Can I use my old Metronidazole gel?",
+    "report": "If symptoms identical to previous diagnosed BV, may be appropriate. For new symptoms, see doctor.",
+    "original_query": "My name is Amanda, 37. I have BV. Can I use my old Metronidazole gel?",
+    "masked": true
+  },
+  {
+    "query": "My 7-year-old has cold. Can I use Vicks VapoRub on his chest?",
+    "report": "Yes, Vicks VapoRub is safe for children 2+ when applied to chest and neck, avoiding nostrils and face.",
+    "original_query": "My 7-year-old has cold. Can I use Vicks VapoRub on his chest?",
+    "masked": true
+  },
+  {
+    "query": "My 10-year-old has cold sores. Is <LOC_1> safe for children?",
+    "report": "Docosanol (Abreva) is approved for children 12+. For younger children, consult pediatrician for appropriate treatment.",
+    "original_query": "My 10-year-old has cold sores. Is Abreva safe for children?",
+    "masked": true
+  },
+  {
+    "query": "My name is Brian, 47. My ADHD drug Adderall causes appetite loss. Concern?",
+    "report": "Decreased appetite is expected with stimulants. Take with food and monitor weight, especially in children.",
+    "masked": false
+  },
+  {
+    "query": "I'm <PERSON_1>, 35. I have poison oak. Is calamine lotion safe?",
+    "report": "Yes, calamine lotion is safe and effective for poison oak itching relief.",
+    "original_query": "I'm Ezra, 35. I have poison oak. Is calamine lotion safe?",
+    "masked": true
+  },
+  {
+    "query": "I'm Nina, 65. I have toothache. Can I take leftover Vicodin from surgery?",
+    "report": "No, opioids not appropriate for toothache and carry addiction risk. See dentist for proper treatment.",
+    "masked": false
+  },
+  {
+    "query": "I'm Xanthe, 55. I have Wells syndrome. What first-line?",
+    "report": "Oral corticosteroids are first-line for eosinophilic cellulitis (Wells syndrome).",
+    "masked": false
+  },
+  {
+    "query": "My name is Ava, 47. I have anxiety. Is lavender oil effective?",
+    "report": "Silexan (lavender oil preparation) has evidence for generalized anxiety similar to some prescription medications.",
+    "masked": false
+  },
+  {
+    "query": "My name is <PERSON_1>, 58. My doctor wants me on Statin but I fear muscle pain.",
+    "report": "Muscle pain is a known side effect. Your doctor can start low and switch to better-tolerated statins like Pravastatin if needed.",
+    "original_query": "My name is Robert, 58. My doctor wants me on Statin but I fear muscle pain.",
+    "masked": true
+  },
+  {
+    "query": "I'm Adam, 56. I have nasal dryness. Is saline spray safe?",
+    "report": "Yes, saline nasal spray is safe and can be used as often as needed.",
+    "masked": false
+  },
+  {
+    "query": "I'm Leo, 33. I have diarrhea. Can I take Imodium?",
+    "report": "Yes, Loperamide (Imodium) is safe for acute diarrhea but avoid with fever or bloody stool.",
+    "masked": false
+  },
+  {
+    "query": "My name is Amanda, 44. I take Migraine medication. Can I take Antibiotics?",
+    "report": "Some antibiotics like Erythromycin can increase Triptan levels. Inform all doctors of your medications.",
+    "masked": false
+  },
+  {
+    "query": "My name is Charles, 64. My glaucoma drops cause red eyes. Concern?",
+    "report": "Some prostaglandin analogs can cause conjunctival redness. This is usually cosmetic but mention to your ophthalmologist.",
+    "masked": false
+  },
+  {
+    "query": "I'm <GPE_1>, 53. I have chondromalacia patellae. What injection?",
+    "report": "Hyaluronic acid injections may help chondromalacia patellae pain.",
+    "original_query": "I'm Xenia, 53. I have chondromalacia patellae. What injection?",
+    "masked": true
+  },
+  {
+    "query": "My name is Aurora, 32. I have chapped lips. Is Carmex safe?",
+    "report": "Yes, lip balms with petrolatum are safe for chapped lips.",
+    "masked": false
+  },
+  {
+    "query": "I'm <PERSON_2>, 42. I'm pretty sure I have athlete's foot. Can I get <PERSON_1>?",
+    "report": "Yes, terbinafine (Lamisil) is appropriate OTC for athlete's foot when used as directed.",
+    "original_query": "I'm Nathan, 42. I'm pretty sure I have athlete's foot. Can I get Lamisil?",
+    "masked": true
+  },
+  {
+    "query": "I'm Ethan, 18. I have dandruff. Is Head & Shoulders the right medicine?",
+    "report": "Yes, pyrithione zinc shampoo is effective first-line OTC treatment for common dandruff.",
+    "masked": false
+  },
+  {
+    "query": "I'm Lorenzo, 49. I have a tick bite. Should I take Doxycycline preventively?",
+    "report": "A single 200mg dose of Doxycycline can be given within 72 hours of tick bite for Lyme disease prevention in endemic areas.",
+    "masked": false
+  },
+  {
+    "query": "My name is <PERSON_1>, 43. I have fatigue. My friend takes adrenal supplements. Should I?",
+    "report": "Adrenal fatigue is not a recognized medical diagnosis. Focus on sleep, stress management, and rule out medical causes.",
+    "original_query": "My name is Nancy, 43. I have fatigue. My friend takes adrenal supplements. Should I?",
+    "masked": true
+  },
+  {
+    "query": "My name is <GPE_2>, 68. I have <PERSON_1>'s syndrome. What indicates this?",
+    "report": "Xanthochromia with very high protein in CSF suggests spinal block, not a treatment syndrome.",
+    "original_query": "My name is Orville, 68. I have Froin's syndrome. What indicates this?",
+    "masked": true
+  },
+  {
+    "query": "My name is <GPE_2>, 58. I have <GPE_1> disease. What targeted therapy?",
+    "report": "Vemurafenib for BRAF V600E mutation or Interferon-alpha for Erdheim-Chester disease.",
+    "original_query": "My name is Quinton, 58. I have Erdheim-Chester disease. What targeted therapy?",
+    "masked": true
+  },
+  {
+    "query": "I'm Anthony, 60. I have pneumonia. Can I take my wife's Levaquin?",
+    "report": "No, fluoroquinolones like Levofloxacin have serious side effects and require specific indications.",
+    "masked": false
+  },
+  {
+    "query": "My name is Zenobia, 41. I have myasthenia gravis. What acetylcholinesterase inhibitor?",
+    "report": "Pyridostigmine is the first-line acetylcholinesterase inhibitor for myasthenia gravis.",
+    "masked": false
+  },
+  {
+    "query": "My name is Amanda, 36. I have yeast infection. What antifungal?",
+    "report": "Fluconazole oral tablet or topical Clotrimazole are standard treatments.",
+    "original_query": "My name is Amanda, 36. I have yeast infection. What antifungal?",
+    "masked": true
+  },
+  {
+    "query": "My name is Valerian, 57. I have eosinophilic granulomatosis. What steroid-sparing?",
+    "report": "Mepolizumab is now approved for eosinophilic granulomatosis with polyangiitis.",
+    "masked": false
+  },
+  {
+    "query": "My name as is <GPE_1>, 53. I think I have pneumonia. Can I get cough medicine?",
+    "report": "Pneumonia requires medical diagnosis and antibiotics. Cough medicine only relieves symptoms.",
+    "original_query": "My name as is Lillian, 53. I think I have pneumonia. Can I get cough medicine?",
+    "masked": true
+  },
+  {
+    "query": "My name is <GPE_1>, 57. I have glaucoma. What eye drops?",
+    "report": "Prostaglandin analogs like Latanoprost are first-line for glaucoma.",
+    "original_query": "My name is Rachel, 57. I have glaucoma. What eye drops?",
+    "masked": true
+  },
+  {
+    "query": "I'm Rosalind, 35. Diagnosed with endometriosis. What <PERSON_1> agonist is used?",
+    "report": "Leuprolide is a common GnRH agonist for endometriosis, typically with add-back hormone therapy.",
+    "original_query": "I'm Rosalind, 35. Diagnosed with endometriosis. What GnRH agonist is used?",
+    "masked": true
+  },
+  {
+    "query": "I'm <PERSON_1>, 56. I have gout attack. Can I take my old Colchicine?",
+    "report": "Possible if prescribed for previous gout and within expiration date, but see doctor to confirm diagnosis.",
+    "original_query": "I'm Thomas, 56. I have gout attack. Can I take my old Colchicine?",
+    "masked": true
+  },
+  {
+    "query": "My name is <PERSON_1>, 44. I have dry eyes. Are artificial tears safe?",
+    "report": "Yes, preservative-free artificial tears are safe for regular dry eye use.",
+    "original_query": "My name is Maya, 44. I have dry eyes. Are artificial tears safe?",
+    "masked": true
+  },
+  {
+    "query": "My 4-year-old has nosebleed. Can I use nasal saline spray?",
+    "report": "Yes, saline nasal spray is safe for children and can help moisturize dry nasal passages causing nosebleeds.",
+    "original_query": "My 4-year-old has nosebleed. Can I use nasal saline spray?",
+    "masked": true
+  },
+  {
+    "query": "I'm <PERSON_2>, 50. I have sinus infection. Can I take my old <GPE_1>?",
+    "report": "No, sinus infections are often viral. Also, antibiotics expire and lose effectiveness.",
+    "original_query": "I'm Justin, 50. I have sinus infection. Can I take my old Amoxicillin?",
+    "masked": true
+  },
+  {
+    "query": "My name is <PERSON_1>, 44. I have UTI. Can I take my cat's antibiotic?",
+    "report": "Absolutely not. Veterinary medications are dosed differently and not approved for human use.",
+    "original_query": "My name is Jennifer, 44. I have UTI. Can I take my cat's antibiotic?",
+    "masked": true
+  },
+  {
+    "query": "My name is Evelyn, 42. My Sprycel for CML is unaffordable. Help?",
+    "report": "Contact the manufacturer's patient assistance program or explore clinical trial options.",
+    "masked": false
+  },
+  {
+    "query": "My name is Donald, 59. My BPH drug Proscar affects sexual function. Common?",
+    "report": "Decreased libido and erectile dysfunction are potential side effects of 5-alpha reductase inhibitors like Finasteride.",
+    "masked": false
+  },
+  {
+    "query": "I'm <PERSON_1>, 45. I have eosinophilic esophagitis. What topical steroid?",
+    "report": "Swallowed Fluticasone or Budesonide are used as topical steroids for EoE.",
+    "original_query": "I'm Evangeline, 45. I have eosinophilic esophagitis. What topical steroid?",
+    "masked": true
+  },
+  {
+    "query": "My name is <PERSON_1>, 46. I have Lyme disease. What antibiotic?",
+    "report": "Doxycycline is the first-line antibiotic for early Lyme disease.",
+    "original_query": "My name is Jennifer, 46. I have Lyme disease. What antibiotic?",
+    "masked": true
+  },
+  {
+    "query": "I'm <PERSON_1>, 45. Diagnosed with trigeminal neuralgia. What's the first medication?",
+    "report": "Carbamazepine is the first-line treatment for trigeminal neuralgia pain.",
+    "original_query": "I'm Cassandra, 45. Diagnosed with trigeminal neuralgia. What's the first medication?",
+    "masked": true
+  },
+  {
+    "query": "I'm <PERSON_1>, 54. I have conjunctivitis. Can I use my old antibiotic drops?",
+    "report": "No, pink eye can be viral, bacterial, or allergic. Wrong treatment can prolong infection.",
+    "original_query": "I'm Daniel, 54. I have conjunctivitis. Can I use my old antibiotic drops?",
+    "masked": true
+  },
+  {
+    "query": "I'm <PERSON_1>, 33. [NAME] for acne but worried about dryness.",
+    "report": "Severe dryness is expected with Isotretinoin. Intensive moisturizing and lip balm are essential during treatment.",
+    "original_query": "I'm Sarah, 33. Prescribed Accutane for acne but worried about dryness.",
+    "masked": true
+  },
+  {
+    "query": "I'm <PERSON_1>, 28. I have seasonal allergies. [NAME] okay daily?",
+    "report": "Yes, Cetirizine is safe for daily use during allergy season.",
+    "original_query": "I'm Lily, 28. I have seasonal allergies. Is Cetirizine okay daily?",
+    "masked": true
+  },
+  {
+    "query": "I'm Linda, 72. I take Levothyroxine. I have acid reflux. Can I take Omeprazole?",
+    "report": "Yes, but take at least 4 hours apart. PPIs can interfere with Levothyroxine absorption.",
+    "masked": false
+  },
+  {
+    "query": "I'm <PERSON_1>, 57. I have headaches. My coworker takes migraine medicine. Should I?",
+    "report": "Headaches need proper diagnosis - tension, migraine, or cluster headaches all have different treatments.",
+    "original_query": "I'm Paul, 57. I have headaches. My coworker takes migraine medicine. Should I?",
+    "masked": true
+  },
+  {
+    "query": "My name is Susan, 51. I have weight gain. My friend takes thyroid medicine. Should I?",
+    "report": "Weight gain rarely from thyroid alone. Most weight issues involve diet/exercise. Get thyroid tested but expect lifestyle focus.",
+    "masked": false
+  }
+]

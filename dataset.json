@@ -744,10 +744,6 @@
     "report": "Yes, Diphenhydramine cream is safe for topical use in children for poison ivy itching relief."
   },
   {
-    "query": "My 11-year-old has fever. Can I alternate Tylenol and Advil?",
-    "Report": "Yes, alternating acetaminophen and ibuprofen can be done safely with careful timing (every 3-4 hours) and dose tracking."
-  },
-  {
     "query": "My 2-month-old has gas. Is infant simethicone drops safe?",
     "report": "Yes, simethicone drops (Little Remedies, Mylicon) are safe for infant gas when using the provided dropper."
   },
@@ -1600,8 +1596,8 @@
     "report": "Leuprolide is a common GnRH agonist for endometriosis, typically with add-back hormone therapy."
   },
   {
-    "query": "My name is Percival, 68. I have Waldenström's macroglobulinemia. What targeted therapy?",
-    "report": "Ibrutinib, a BTK inhibitor, is used for Waldenström's macroglobulinemia."
+    "query": "My name is Percival, 68. I have Waldenstr\u00f6m's macroglobulinemia. What targeted therapy?",
+    "report": "Ibrutinib, a BTK inhibitor, is used for Waldenstr\u00f6m's macroglobulinemia."
   },
   {
     "query": "I'm Cordelia, 47. I have interstitial cystitis. What oral medication?",
@@ -1664,12 +1660,12 @@
     "report": "Modafinil or Sodium Oxybate are first-line for narcolepsy with cataplexy."
   },
   {
-    "query": "My name is Ignatius, 59. I have Guillain-Barré syndrome. What treatment?",
-    "report": "IVIG or plasma exchange are acute treatments for Guillain-Barré syndrome."
+    "query": "My name is Ignatius, 59. I have Guillain-Barr\u00e9 syndrome. What treatment?",
+    "report": "IVIG or plasma exchange are acute treatments for Guillain-Barr\u00e9 syndrome."
   },
   {
-    "query": "I'm Octavia, 46. I have Sjögren's syndrome. What for dry mouth?",
-    "report": "Pilocarpine or Cevimeline can stimulate saliva production in Sjögren's syndrome."
+    "query": "I'm Octavia, 46. I have Sj\u00f6gren's syndrome. What for dry mouth?",
+    "report": "Pilocarpine or Cevimeline can stimulate saliva production in Sj\u00f6gren's syndrome."
   },
   {
     "query": "My 16-year-old has infectious mononucleosis. Can he take Ampicillin?",
@@ -1792,8 +1788,8 @@
     "report": "Aspirin may help secondary erythromelalgia; Gabapentin or Mexiletine for primary form."
   },
   {
-    "query": "My name is Ptolemy, 67. I have Waldenström's. What BTK inhibitor?",
-    "report": "Ibrutinib is the BTK inhibitor used for Waldenström's macroglobulinemia."
+    "query": "My name is Ptolemy, 67. I have Waldenstr\u00f6m's. What BTK inhibitor?",
+    "report": "Ibrutinib is the BTK inhibitor used for Waldenstr\u00f6m's macroglobulinemia."
   },
   {
     "query": "I'm Jessamine, 51. I have chondrocalcinosis. What for acute attacks?",

@@ -1,0 +1,19 @@
+{
+  "rag_train": "/content/drive/MyDrive/gemma_finetune/artifacts/rag-train.json",
+  "rag_test": "/content/drive/MyDrive/gemma_finetune/artifacts/rag-test.json",
+  "finetune_train": "/content/drive/MyDrive/gemma_finetune/artifacts/finetune-train.jsonl",
+  "finetune_test": "/content/drive/MyDrive/gemma_finetune/artifacts/finetune-test.jsonl",
+  "faiss_index": "/content/drive/MyDrive/gemma_finetune/artifacts/reports_index.faiss",
+  "meta": "/content/drive/MyDrive/gemma_finetune/artifacts/reports_metadata.json",
+  "lora_weights": "/content/drive/MyDrive/gemma_finetune/artifacts/lora_weights",
+  "merged_model": "/content/drive/MyDrive/gemma_finetune/gemma2b_qlora_ft_merged",
+  "notes": {
+    "split_ratio": "80-20",
+    "mask_probability": 0.6,
+    "sim_threshold": 0.3,
+    "topk": 3,
+    "learning_rate": 0.0002,
+    "stability_fixes": "gradient_clipping, lower_lr, checkpointing",
+    "description": "ALL datasets contain 60% masked queries for consistent training and evaluation"
+  }
+}
